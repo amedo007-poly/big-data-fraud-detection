@@ -1,0 +1,802 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+% Theme
+\usetheme{Madrid}
+\usecolortheme{whale}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{fontawesome5}
+\usepackage{amssymb}
+
+% Colors
+\definecolor{sparkblue}{RGB}{227, 99, 26}
+\definecolor{darkblue}{RGB}{0, 51, 102}
+\definecolor{alertred}{RGB}{204, 0, 0}
+\definecolor{azureblue}{RGB}{0, 120, 212}
+
+\setbeamercolor{title}{fg=white,bg=darkblue}
+\setbeamercolor{frametitle}{fg=white,bg=darkblue}
+\setbeamercolor{block title}{fg=white,bg=sparkblue}
+\setbeamercolor{block body}{bg=sparkblue!10}
+
+% Smaller fonts
+\setbeamerfont{itemize/enumerate body}{size=\small}
+\setbeamerfont{itemize/enumerate subbody}{size=\footnotesize}
+
+% Code listings
+\lstset{
+    basicstyle=\ttfamily\tiny,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{gray!10}
+}
+
+% Remove navigation
+\setbeamertemplate{navigation symbols}{}
+
+% Footer
+\setbeamertemplate{footline}{
+    \leavevmode%
+    \hbox{%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+            \usebeamerfont{author in head/foot}Big Data Project
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+            \usebeamerfont{title in head/foot}Fraud Detection
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+            \usebeamerfont{date in head/foot}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+        \end{beamercolorbox}}%
+    \vskip0pt%
+}
+
+\begin{document}
+
+% ============================================================================
+% TITLE SLIDE
+% ============================================================================
+
+\begin{frame}
+\begin{center}
+    {\Huge\textbf{\textcolor{darkblue}{Credit Card Fraud Detection}}}\\[0.3cm]
+    {\large with Apache Spark \& Machine Learning}\\[0.4cm]
+    
+    \begin{tikzpicture}
+        \node[draw=sparkblue,line width=1.5pt,rounded corners,inner sep=6pt] {
+            \small\textcolor{sparkblue}{\faDatabase\ SQL} \quad
+            \textcolor{sparkblue}{\faCogs\ MLlib} \quad
+            \textcolor{sparkblue}{\faStream\ Streaming} \quad
+            \textcolor{sparkblue}{\faProjectDiagram\ GraphX} \quad
+            \textcolor{sparkblue}{\faCloud\ Azure}
+        };
+    \end{tikzpicture}\\[0.4cm]
+    
+    {\normalsize\textbf{Final Project - Big Data Module}}\\[0.3cm]
+    
+    \begin{tabular}{ccc}
+        \textbf{Ahmed Dinari} & \textbf{Bilel Samaali} & \textbf{Anas Belhouichet} \\
+        {\footnotesize Lead Dev \& ML} & {\footnotesize Data Engineer} & {\footnotesize Visualization} \\
+    \end{tabular}\\[0.2cm]
+    {\footnotesize January 2026}
+\end{center}
+\end{frame}
+
+% ============================================================================
+% AGENDA
+% ============================================================================
+
+\begin{frame}{Agenda}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faListOl\ Big Data Pipeline}
+        \begin{enumerate}
+            \item Introduction \& Context
+            \item Dataset \& Architecture
+            \item Spark SQL Analytics
+            \item Machine Learning (MLlib)
+        \end{enumerate}
+    \end{block}
+    \vspace{0.3cm}
+    \begin{exampleblock}{\faChartLine\ Key Metrics}
+        \small
+        \begin{itemize}
+            \item AUC-ROC: \textbf{0.987}
+            \item Precision: \textbf{100\%}
+            \item 282,982 transactions
+        \end{itemize}
+    \end{exampleblock}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faRocket\ Innovations}
+        \begin{enumerate}
+            \setcounter{enumi}{4}
+            \item GraphX - Network Analysis
+            \item Federated Learning
+            \item Spark Streaming
+            \item Azure Cloud \& Grafana
+        \end{enumerate}
+    \end{block}
+    \vspace{0.3cm}
+    \begin{alertblock}{\faClock\ Duration}
+        \small
+        Complete pipeline executed in \textbf{< 5 min}
+        on local Spark cluster (Docker)
+    \end{alertblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 1: INTRODUCTION
+% ============================================================================
+
+\section{Introduction}
+
+\begin{frame}{Context \& Objectives}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faExclamationTriangle\ Problem Statement}
+        \footnotesize
+        \begin{itemize}
+            \item \$30+ billion losses/year
+            \item Sophisticated fraud schemes
+            \item Real-time detection required
+        \end{itemize}
+    \end{block}
+    \begin{block}{\faBullseye\ Objectives}
+        \footnotesize
+        \begin{itemize}
+            \item Complete Big Data pipeline
+            \item ML with AUC-ROC > 0.95
+            \item Grafana Dashboard
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faCogs\ Technologies}
+        \footnotesize
+        \begin{itemize}
+            \item Apache Spark 3.5
+            \item SQL, MLlib, GraphX, Streaming
+            \item Azure Cloud + Grafana
+        \end{itemize}
+    \end{block}
+    \begin{alertblock}{\faLightbulb\ Innovation}
+        \footnotesize
+        Federated Learning for banking privacy compliance
+    \end{alertblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 2: DATASET - REAL METRICS
+% ============================================================================
+
+\section{Dataset}
+
+\begin{frame}{Kaggle Dataset - Credit Card Fraud}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+    \begin{block}{\faDatabase\ Characteristics}
+        \small
+        \begin{itemize}
+            \item \textbf{284,807} transactions
+            \item \textbf{492} frauds (0.17\%)
+            \item 30 features (V1-V28 + Time + Amount)
+            \item Anonymized features (PCA)
+        \end{itemize}
+    \end{block}
+    
+    \begin{alertblock}{\faBalanceScale\ Class Imbalance}
+        \small
+        Ratio 577:1 - Undersampling strategy applied
+    \end{alertblock}
+\end{column}
+\begin{column}{0.5\textwidth}
+    \begin{block}{\faChartPie\ Real SQL Results}
+        \small
+        \begin{tabular}{lr}
+            \toprule
+            \textbf{Metric} & \textbf{Value} \\
+            \midrule
+            Total Transactions & 282,982 \\
+            Frauds Detected & 465 \\
+            Fraud Rate & 0.1643\% \\
+            Average Amount & \$88.92 \\
+            Max Amount & \$25,691 \\
+            \bottomrule
+        \end{tabular}
+    \end{block}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 3: ARCHITECTURE
+% ============================================================================
+
+\section{Architecture}
+
+\begin{frame}{Pipeline Architecture}
+\begin{center}
+    \begin{tikzpicture}[
+        scale=0.8,
+        node distance=1.2cm,
+        box/.style={rectangle, draw=darkblue, fill=darkblue!20, 
+                    text width=1.6cm, text centered, rounded corners, 
+                    minimum height=0.8cm, font=\tiny},
+        arrow/.style={->, thick, darkblue}
+    ]
+        \node[box] (data) {\faFile\\Data};
+        \node[box, right of=data, xshift=0.8cm] (sql) {\faDatabase\\SQL};
+        \node[box, right of=sql, xshift=0.8cm] (ml) {\faBrain\\MLlib};
+        \node[box, right of=ml, xshift=0.8cm] (graphx) {\faProjectDiagram\\GraphX};
+        \node[box, right of=graphx, xshift=0.8cm] (stream) {\faStream\\Stream};
+        \node[box, right of=stream, xshift=0.8cm] (azure) {\faCloud\\Azure};
+        \node[box, right of=azure, xshift=0.8cm] (grafana) {\faChartLine\\Grafana};
+        
+        \draw[arrow] (data) -- (sql);
+        \draw[arrow] (sql) -- (ml);
+        \draw[arrow] (ml) -- (graphx);
+        \draw[arrow] (graphx) -- (stream);
+        \draw[arrow] (stream) -- (azure);
+        \draw[arrow] (azure) -- (grafana);
+    \end{tikzpicture}
+\end{center}
+
+\vspace{0.2cm}
+
+\begin{columns}[T]
+\begin{column}{0.33\textwidth}
+    \begin{block}{\faDownload\ Ingestion}
+        \tiny
+        \begin{itemize}
+            \item CSV Loading
+            \item Schema typing
+            \item Data cleaning
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.33\textwidth}
+    \begin{block}{\faWrench\ Processing}
+        \tiny
+        \begin{itemize}
+            \item Feature Engineering
+            \item ML Training
+            \item Graph Analysis
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.33\textwidth}
+    \begin{block}{\faRocket\ Production}
+        \tiny
+        \begin{itemize}
+            \item Real-time Scoring
+            \item Azure Deploy
+            \item Monitoring
+        \end{itemize}
+    \end{block}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 4: SPARK SQL - REAL METRICS
+% ============================================================================
+
+\section{Spark SQL}
+
+\begin{frame}[fragile]{Spark SQL Analysis}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faCode\ Data Cleaning}
+\begin{lstlisting}[language=Python]
+df = df.dropna()
+df = df.filter(col("Amount") > 0)
+df = df.withColumn("Hour",
+    (col("Time")/3600) % 24)
+\end{lstlisting}
+    \end{block}
+    
+    \begin{block}{\faChartPie\ Amount Distribution}
+        \tiny
+        \begin{tabular}{lrr}
+            \toprule
+            \textbf{Bucket} & \textbf{Count} & \textbf{Fraud\%} \\
+            \midrule
+            0-10\$ & 95,489 & 0.23\% \\
+            10-50\$ & 92,390 & 0.06\% \\
+            500-1000\$ & 6,423 & 0.40\% \\
+            \bottomrule
+        \end{tabular}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faTable\ Class Comparison}
+        \small
+        \begin{tabular}{lrr}
+            \toprule
+            & \textbf{Normal} & \textbf{Fraud} \\
+            \midrule
+            Count & 282,517 & 465 \\
+            Avg \$ & \$88.85 & \$129.31 \\
+            Max \$ & \$25,691 & \$2,125 \\
+            \bottomrule
+        \end{tabular}
+    \end{block}
+    
+    \begin{alertblock}{\faLightbulb\ Insight}
+        \tiny
+        Average fraud amount is \textbf{45\% higher} than normal transactions!
+    \end{alertblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 5: MLLIB - REAL METRICS
+% ============================================================================
+
+\section{Machine Learning}
+
+\begin{frame}{MLlib - Real Results}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faTree\ RandomForest}
+        \tiny
+        \begin{itemize}
+            \item 100 trees, Depth: 10
+            \item Feature subset: sqrt
+        \end{itemize}
+        \vspace{0.1cm}
+        \small\textbf{Real Results:}
+        \tiny
+        \begin{itemize}
+            \item Accuracy: \textbf{93.75\%}
+            \item AUC-ROC: \textbf{0.9870}
+            \item Recall: \textbf{88.12\%}
+            \item Precision: \textbf{100\%}
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faChartLine\ Logistic Regression}
+        \tiny
+        \begin{itemize}
+            \item 100 iterations, Reg: 0.01
+            \item ElasticNet: 0.8
+        \end{itemize}
+        \vspace{0.1cm}
+        \small\textbf{Real Results:}
+        \tiny
+        \begin{itemize}
+            \item Accuracy: 92.58\%
+            \item AUC-ROC: 0.9856
+            \item Recall: 87.13\%
+            \item Precision: 98.88\%
+        \end{itemize}
+    \end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.3cm}
+\begin{center}
+    \begin{tikzpicture}
+        \node[draw=green!60!black, fill=green!20, rounded corners, inner sep=4pt] {
+            \small\faCheckCircle\ \textbf{Best Model: RandomForest} (AUC=0.987, Precision=100\%)
+        };
+    \end{tikzpicture}
+\end{center}
+\end{frame}
+
+\begin{frame}{ML Results Visualization}
+\begin{center}
+    \includegraphics[width=0.85\textwidth]{../screenshots/model_comparison.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Feature Importance - Top 15}
+\begin{center}
+    \includegraphics[width=0.75\textwidth]{../screenshots/feature_importance.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{ROC Curve}
+\begin{center}
+    \includegraphics[width=0.55\textwidth]{../screenshots/roc_curve.png}
+\end{center}
+\end{frame}
+
+% ============================================================================
+% SECTION 6: GRAPHX - REAL RESULTS
+% ============================================================================
+
+\section{GraphX}
+
+\begin{frame}{GraphX - Fraud Network Analysis}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faProjectDiagram\ Real Results}
+        \tiny
+        \begin{itemize}
+            \item \textbf{284,807} transactions analyzed
+            \item \textbf{492} frauds detected
+            \item \textbf{4} communities identified
+            \item \textbf{48} pattern triangles
+        \end{itemize}
+    \end{block}
+    
+    \begin{block}{\faCode\ Algorithms}
+        \tiny
+        \begin{itemize}
+            \item \textbf{PageRank:} Feature importance
+            \item \textbf{Connected Components:} Clusters
+            \item \textbf{Triangle Count:} Patterns
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faCogs\ Detected Communities}
+        \tiny
+        \begin{tabular}{lrr}
+            \toprule
+            \textbf{Cluster} & \textbf{Size} & \textbf{Avg\$} \\
+            \midrule
+            high\_risk\_2 & 210 & \$107.24 \\
+            medium\_risk & 144 & \$154.09 \\
+            high\_risk\_1 & 114 & \$73.98 \\
+            low\_risk & 24 & \$291.05 \\
+            \bottomrule
+        \end{tabular}
+    \end{block}
+    
+    \begin{exampleblock}{\faChartBar\ Top Features (PageRank)}
+        \tiny
+        \begin{tabular}{lr}
+            V3 & sep=7.91 \\
+            V14 & sep=6.77 \\
+            V17 & sep=6.61 \\
+        \end{tabular}
+    \end{exampleblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 7: FEDERATED LEARNING
+% ============================================================================
+
+\section{Federated Learning}
+
+\begin{frame}{Federated Learning - Privacy Preservation}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faLock\ Principle}
+        \tiny
+        \begin{itemize}
+            \item Data stays at banks
+            \item Only gradients are shared
+            \item Global model without centralization
+            \item GDPR compliance guaranteed
+        \end{itemize}
+    \end{block}
+    
+    \begin{block}{\faCogs\ Implementation}
+        \tiny
+        \begin{itemize}
+            \item 3 banks simulation (partitions)
+            \item FedAvg aggregation
+            \item 10 communication rounds
+            \item Differential Privacy (epsilon=1.0)
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{center}
+    \begin{tikzpicture}[scale=0.55]
+        % Central server
+        \node[rectangle, draw=darkblue, fill=darkblue!30, minimum width=1.5cm, minimum height=0.8cm] (server) at (3,4) {\tiny Server};
+        
+        % Banks
+        \node[rectangle, draw=green!60!black, fill=green!20, minimum width=1.2cm, minimum height=0.6cm] (b1) at (0,1) {\tiny Bank 1};
+        \node[rectangle, draw=green!60!black, fill=green!20, minimum width=1.2cm, minimum height=0.6cm] (b2) at (3,1) {\tiny Bank 2};
+        \node[rectangle, draw=green!60!black, fill=green!20, minimum width=1.2cm, minimum height=0.6cm] (b3) at (6,1) {\tiny Bank 3};
+        
+        % Arrows
+        \draw[->, thick, blue] (b1) -- (server) node[midway, left, font=\tiny] {grad};
+        \draw[->, thick, blue] (b2) -- (server);
+        \draw[->, thick, blue] (b3) -- (server) node[midway, right, font=\tiny] {grad};
+        \draw[->, thick, red, dashed] (server) to[bend left=20] (b1);
+        \draw[->, thick, red, dashed] (server) -- (b2);
+        \draw[->, thick, red, dashed] (server) to[bend right=20] (b3);
+        
+        \node at (3,-0.2) {\tiny\textcolor{red}{Model Update}};
+    \end{tikzpicture}
+    \end{center}
+    
+    \begin{exampleblock}{\faChartLine\ FL Results}
+        \tiny
+        \begin{tabular}{lr}
+            Centralized AUC & 0.9870 \\
+            Federated AUC & 0.9712 \\
+            Precision loss & -1.6\% \\
+        \end{tabular}
+    \end{exampleblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 8: STREAMING
+% ============================================================================
+
+\section{Streaming}
+
+\begin{frame}[fragile]{Spark Streaming - Real-Time}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faStream\ Configuration}
+\begin{lstlisting}[language=Python]
+stream_df = spark.readStream \
+    .schema(SCHEMA) \
+    .option("maxFilesPerTrigger", 1) \
+    .csv(STREAMING_INPUT)
+\end{lstlisting}
+    \end{block}
+    
+    \begin{block}{\faClock\ Parameters}
+        \tiny
+        \begin{itemize}
+            \item Batch: 50 transactions
+            \item Interval: 3 seconds
+            \item Demo duration: 60 seconds
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faFileExport\ Outputs}
+        \tiny
+        \begin{itemize}
+            \item \textbf{Parquet:} All predictions
+            \item \textbf{CSV:} Fraud alerts
+            \item \textbf{JSON:} Live metrics
+        \end{itemize}
+    \end{block}
+    
+    \begin{exampleblock}{\faRocket\ Live Metrics}
+        \tiny
+        \begin{itemize}
+            \item Transactions/minute
+            \item Frauds detected
+            \item Average score
+            \item Latency < 100ms
+        \end{itemize}
+    \end{exampleblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ============================================================================
+% SECTION 9: AZURE & GRAFANA
+% ============================================================================
+
+\section{Azure \& Grafana}
+
+\begin{frame}{Azure Databricks Deployment}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faCloud\ Cloud Architecture}
+        \tiny
+        \begin{itemize}
+            \item \textbf{Azure Databricks} - Managed Spark
+            \item \textbf{Azure Data Lake} - Storage (100GB)
+            \item \textbf{Azure Event Hubs} - Streaming
+            \item \textbf{Azure Monitor} - Logs
+        \end{itemize}
+    \end{block}
+    
+    \begin{block}{\faDollarSign\ Estimated Costs}
+        \tiny
+        \begin{tabular}{lr}
+            \toprule
+            Service & Cost/month \\
+            \midrule
+            Databricks (2 nodes) & \$150 \\
+            Data Lake (100GB) & \$5 \\
+            Event Hubs & \$25 \\
+            \midrule
+            \textbf{Total} & \textbf{\$180} \\
+            \bottomrule
+        \end{tabular}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{center}
+    \begin{tikzpicture}[scale=0.55]
+        % Azure components
+        \node[rectangle, draw=azureblue, fill=azureblue!20, minimum width=1.8cm, minimum height=0.6cm, font=\tiny] (eh) at (0,3) {Event Hubs};
+        \node[rectangle, draw=azureblue, fill=azureblue!20, minimum width=1.8cm, minimum height=0.6cm, font=\tiny] (db) at (3,3) {Databricks};
+        \node[rectangle, draw=azureblue, fill=azureblue!20, minimum width=1.8cm, minimum height=0.6cm, font=\tiny] (dl) at (3,1) {Data Lake};
+        \node[rectangle, draw=sparkblue, fill=sparkblue!20, minimum width=1.8cm, minimum height=0.6cm, font=\tiny] (gf) at (6,3) {Grafana};
+        
+        \draw[->, thick] (eh) -- (db);
+        \draw[->, thick] (db) -- (dl);
+        \draw[->, thick] (db) -- (gf);
+        \draw[->, thick, dashed] (dl) -- (gf);
+    \end{tikzpicture}
+    \end{center}
+    
+    \begin{exampleblock}{\faChartLine\ Benefits}
+        \tiny
+        \begin{itemize}
+            \item Auto-scaling
+            \item High availability
+            \item Native integration
+            \item Enterprise security
+        \end{itemize}
+    \end{exampleblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Grafana Dashboard - Capture 1}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/Grafana capture 1.png"}
+\end{center}
+\end{frame}
+
+\begin{frame}{Grafana Dashboard - Capture 2}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/Grafana capture 2.png"}
+\end{center}
+\end{frame}
+
+\begin{frame}{Grafana Dashboard - Capture 3}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/Grafana capture 3.png"}
+\end{center}
+\end{frame}
+
+\begin{frame}{Azure Portal - Resource Groups}
+\begin{center}
+    \includegraphics[width=0.95\textwidth,height=0.7\textheight,keepaspectratio]{"../screenshots/Azure Portal.png"}
+\end{center}
+\footnotesize
+\begin{itemize}
+    \item \textbf{bigData:} VM-Master + VM-Worker-1 (Switzerland North)
+    \item \textbf{fraud-detection-rg:} West Europe - Created via Azure CLI
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Azure CLI - Resource Creation}
+\begin{center}
+    \includegraphics[width=0.95\textwidth,height=0.7\textheight,keepaspectratio]{"../screenshots/Azure CLI.png"}
+\end{center}
+\footnotesize
+\begin{itemize}
+    \item \textbf{Subscription:} Azure for Students
+    \item \textbf{Resource Group:} fraud-detection-rg created successfully
+\end{itemize}
+\end{frame}
+
+% ============================================================================
+% SECTION 10: VISUALIZATIONS
+% ============================================================================
+
+\begin{frame}{Class Distribution}
+\begin{center}
+    \includegraphics[width=0.85\textwidth]{../screenshots/class_distribution.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Hourly Distribution}
+\begin{center}
+    \includegraphics[width=0.85\textwidth]{../screenshots/hourly_distribution.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Spark Jobs}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/Spark Jobs.png"}
+\end{center}
+\end{frame}
+
+\begin{frame}{Spark Stages}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/Spark Stages.png"}
+\end{center}
+\end{frame}
+
+\begin{frame}{Spark Executors}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{../screenshots/Executors.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{SQL Queries}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/SQL Queries.png"}
+\end{center}
+\end{frame}
+
+\begin{frame}{MLlib Section}
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{"../screenshots/MLlib Section.png"}
+\end{center}
+\end{frame}
+
+% ============================================================================
+% SECTION 11: CONCLUSION
+% ============================================================================
+
+\section{Conclusion}
+
+\begin{frame}{Results \& Added Value}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faCheckCircle\ Achievements}
+        \small
+        \begin{itemize}
+            \item[$\checkmark$] Complete Spark pipeline
+            \item[$\checkmark$] MLlib: AUC = \textbf{0.987}
+            \item[$\checkmark$] GraphX: \textbf{4} clusters, \textbf{48} triangles
+            \item[$\checkmark$] Federated Learning
+            \item[$\checkmark$] Real-time streaming
+            \item[$\checkmark$] Grafana Dashboard
+            \item[$\checkmark$] Azure Architecture
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faBriefcase\ Skills Demonstrated}
+        \small
+        \begin{itemize}
+            \item Big Data Pipeline
+            \item Spark SQL + MLlib + GraphX
+            \item Machine Learning
+            \item Federated Learning
+            \item Azure Cloud
+            \item Data Visualization
+        \end{itemize}
+    \end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.3cm}
+\begin{center}
+    \begin{tikzpicture}
+        \node[draw=sparkblue, fill=sparkblue!10, rounded corners, inner sep=6pt] {
+            \small\faGithub\ \textbf{github.com/amedo007-poly/big-data-fraud-detection}
+        };
+    \end{tikzpicture}
+\end{center}
+\end{frame}
+
+% ============================================================================
+% QUESTIONS
+% ============================================================================
+
+\begin{frame}
+\begin{center}
+    \vspace{1cm}
+    {\Huge\textcolor{darkblue}{\faQuestionCircle}}\\[0.5cm]
+    {\Huge\textbf{Questions?}}\\[0.5cm]
+    {\large Thank you for your attention!}\\[0.5cm]
+    
+    \begin{tikzpicture}
+        \node[draw=darkblue, rounded corners, inner sep=8pt] {
+            \small\faEnvelope\ ahmed.dinari@email.com \quad
+            \faGithub\ amedo007-poly
+        };
+    \end{tikzpicture}
+\end{center}
+\end{frame}
+
+\end{document}
