@@ -1,49 +1,42 @@
-\frametitle{Azure CLI - Création des Ressources}
+\frametitle{Spark Streaming - Temps Réel}
 \begin{columns}[T]
-\begin{column}{0.55\textwidth}
-    \begin{block}{\faTerminal\ Commandes Exécutées}
-\begin{lstlisting}[language=bash,basicstyle=\ttfamily\tiny]
-$ az login
-Tenant: GFI
-Subscription: Azure for Students
-
-$ az group create \
-  --name fraud-detection-rg \
-  --location westeurope
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faStream\ Configuration}
+\begin{lstlisting}[language=Python]
+stream_df = spark.readStream \
+    .schema(SCHEMA) \
+    .option("maxFilesPerTrigger", 1) \
+    .csv(STREAMING_INPUT)
 \end{lstlisting}
     \end{block}
 
-    \begin{exampleblock}{\faCheckCircle\ Réponse JSON}
-\begin{lstlisting}[basicstyle=\ttfamily\tiny]
-{
-  "id": "/subscriptions/.../
-         fraud-detection-rg",
-  "location": "westeurope",
-  "provisioningState": "Succeeded"
-}
-\end{lstlisting}
-    \end{exampleblock}
-\end{column}
-\begin{column}{0.43\textwidth}
-    \begin{block}{\faList\ Étapes Déploiement}
-        \footnotesize
-        \begin{enumerate}
-            \item Connexion Azure CLI
-            \item Création Resource Group
-            \item Déploiement ARM Template
-            \item Configuration Databricks
-            \item Upload des données
-        \end{enumerate}
-    \end{block}
-
-    \begin{alertblock}{\faRocket\ Status}
-        \footnotesize
+    \begin{block}{\faClock\ Paramètres}
+        \tiny
         \begin{itemize}
-            \item[\faCheck] Resource Group créé
-            \item[\faCheck] Subscription active
-            \item[\faCheck] Région disponible
-            \item[\faClock] Databricks: En attente
+            \item Batch: 50 transactions
+            \item Intervalle: 3 secondes
+            \item Durée démo: 60 secondes
         \end{itemize}
-    \end{alertblock}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faFileExport\ Outputs}
+        \tiny
+        \begin{itemize}
+            \item \textbf{Parquet:} Toutes prédictions
+            \item \textbf{CSV:} Alertes fraude
+            \item \textbf{JSON:} Métriques live
+        \end{itemize}
+    \end{block}
+
+    \begin{exampleblock}{\faRocket\ Métriques Live}
+        \tiny
+        \begin{itemize}
+            \item Transactions/minute
+            \item Fraudes détectées
+            \item Score moyen
+            \item Latence < 100ms
+        \end{itemize}
+    \end{exampleblock}
 \end{column}
 \end{columns}
