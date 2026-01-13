@@ -665,41 +665,105 @@ stream_df = spark.readStream \
 \end{frame}
 
 \begin{frame}{Azure Portal - Resource Groups}
-\begin{center}
-    \fbox{\parbox{0.9\textwidth}{
-        \centering
-        \textbf{AZURE PORTAL - RESOURCE GROUPS}\\[0.5cm]
-        \texttt{bigData} Resource Group:\\
-        VM-Master + VM-Worker-1 (Switzerland North)\\[0.3cm]
-        \texttt{fraud-detection-rg} (West Europe)\\
-        Créé via Azure CLI
-    }}
-\end{center}
-\footnotesize
-\begin{itemize}
-    \item Cluster Spark: 1 Master + 1 Worker
-    \item Région: Switzerland North (Azure for Students)
-\end{itemize}
+\begin{columns}[T]
+\begin{column}{0.55\textwidth}
+    \begin{block}{\faCloud\ Resource Group: bigData}
+        \footnotesize
+        \begin{tabular}{ll}
+            \toprule
+            \textbf{Ressource} & \textbf{Détails} \\
+            \midrule
+            VM-Master & Standard\_B2s \\
+            VM-Worker-1 & Standard\_B2s \\
+            Région & Switzerland North \\
+            OS & Ubuntu 20.04 LTS \\
+            Spark & 3.5.0 \\
+            \bottomrule
+        \end{tabular}
+    \end{block}
+    
+    \begin{alertblock}{\faExclamationTriangle\ fraud-detection-rg}
+        \footnotesize
+        \begin{itemize}
+            \item Région: West Europe
+            \item Créé via Azure CLI
+            \item Pour Databricks deployment
+        \end{itemize}
+    \end{alertblock}
+\end{column}
+\begin{column}{0.43\textwidth}
+    \begin{exampleblock}{\faCheckCircle\ Configuration Cluster}
+        \footnotesize
+        \begin{itemize}
+            \item \textbf{Architecture:} Master/Worker
+            \item \textbf{Cores:} 2 vCPUs par VM
+            \item \textbf{RAM:} 4 GB par VM
+            \item \textbf{Storage:} 30 GB SSD
+            \item \textbf{Network:} VNet privé
+        \end{itemize}
+    \end{exampleblock}
+    
+    \begin{block}{\faDollarSign\ Azure for Students}
+        \footnotesize
+        \begin{itemize}
+            \item Crédit: \$100
+            \item Durée: 12 mois
+            \item VMs éligibles: B-series
+        \end{itemize}
+    \end{block}
+\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{Azure CLI - Création des Ressources}
-\begin{center}
-    \begin{tikzpicture}
-        \node[draw=darkblue, fill=gray!10, rounded corners, text width=10cm, font=\ttfamily\tiny] {
-            \$ az login\\
-            Tenant: GFI\\
-            Subscription: Azure for Students\\[0.2cm]
-            \$ az group create --name fraud-detection-rg --location westeurope\\[0.1cm]
-            \{\\
-            \quad "id": "/subscriptions/.../resourceGroups/fraud-detection-rg",\\
-            \quad "location": "westeurope",\\
-            \quad "provisioningState": "Succeeded"\\
-            \}
-        };
-    \end{tikzpicture}
-\end{center}
-\footnotesize
-Resource Group créé avec succès pour le déploiement Databricks
+\begin{frame}[fragile]{Azure CLI - Création des Ressources}
+\begin{columns}[T]
+\begin{column}{0.55\textwidth}
+    \begin{block}{\faTerminal\ Commandes Exécutées}
+\begin{lstlisting}[language=bash,basicstyle=\ttfamily\tiny]
+$ az login
+Tenant: GFI
+Subscription: Azure for Students
+
+$ az group create \
+  --name fraud-detection-rg \
+  --location westeurope
+\end{lstlisting}
+    \end{block}
+    
+    \begin{exampleblock}{\faCheckCircle\ Réponse JSON}
+\begin{lstlisting}[basicstyle=\ttfamily\tiny]
+{
+  "id": "/subscriptions/.../
+         fraud-detection-rg",
+  "location": "westeurope",
+  "provisioningState": "Succeeded"
+}
+\end{lstlisting}
+    \end{exampleblock}
+\end{column}
+\begin{column}{0.43\textwidth}
+    \begin{block}{\faList\ Étapes Déploiement}
+        \footnotesize
+        \begin{enumerate}
+            \item Connexion Azure CLI
+            \item Création Resource Group
+            \item Déploiement ARM Template
+            \item Configuration Databricks
+            \item Upload des données
+        \end{enumerate}
+    \end{block}
+    
+    \begin{alertblock}{\faRocket\ Status}
+        \footnotesize
+        \begin{itemize}
+            \item[\faCheck] Resource Group créé
+            \item[\faCheck] Subscription active
+            \item[\faCheck] Région disponible
+            \item[\faClock] Databricks: En attente
+        \end{itemize}
+    \end{alertblock}
+\end{column}
+\end{columns}
 \end{frame}
 
 % ============================================================================
