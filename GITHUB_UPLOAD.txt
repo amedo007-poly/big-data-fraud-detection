@@ -1,0 +1,117 @@
+================================================================================
+GITHUB UPLOAD INSTRUCTIONS
+================================================================================
+
+STEP 1: Create Repository on GitHub
+================================================================================
+
+1. Go to: https://github.com/new
+
+2. Fill in:
+   - Repository name: big-data-fraud-detection
+   - Description: Big Data Fraud Detection Pipeline with Apache Spark, MLlib & Grafana
+   - Visibility: Public (or Private)
+   - Do NOT initialize with README (we already have one)
+
+3. Click "Create repository"
+
+================================================================================
+
+STEP 2: Push to GitHub
+================================================================================
+
+Open PowerShell in the project folder and run:
+
+# Option A: Using HTTPS (recommended)
+git remote add origin https://github.com/YOUR_USERNAME/big-data-fraud-detection.git
+git branch -M main
+git push -u origin main
+
+# Option B: Using SSH (if configured)
+git remote add origin git@github.com:YOUR_USERNAME/big-data-fraud-detection.git
+git branch -M main
+git push -u origin main
+
+================================================================================
+
+STEP 3: Verify Upload
+================================================================================
+
+1. Go to your GitHub repository
+2. Check that all files are visible
+3. The README.md should display nicely with:
+   - Team members table
+   - Badges
+   - Project structure
+   - Results
+
+================================================================================
+
+TEAM CONTRIBUTION SUMMARY (for professor)
+================================================================================
+
+AHMED DINARI (Lead Developer & ML Engineer)
+--------------------------------------------
+Files worked on:
+- src/mllib_fraud_model.py (ML models)
+- src/streaming_fraud_detection.py (Streaming)
+- Dockerfile & docker-compose.yml (Docker setup)
+- Pipeline architecture
+
+Key contributions:
+✓ Designed overall pipeline architecture
+✓ Implemented RandomForest classifier (AUC-ROC: 0.9847)
+✓ Implemented Logistic Regression model
+✓ Created Docker containerization
+✓ Configured Spark session and optimizations
+
+BILEL SAMAALI (Data Engineer)
+--------------------------------------------
+Files worked on:
+- src/spark_sql_analytics.py (Data processing)
+- src/prepare_grafana_data.py (Data export)
+- Data cleaning logic
+
+Key contributions:
+✓ Implemented Spark SQL data cleaning
+✓ Created feature engineering (Hour extraction, Amount buckets)
+✓ Calculated KPIs and statistics
+✓ Implemented data export to Parquet/JSON/CSV
+
+ANAS BELHOUICHET (Visualization & Documentation)
+--------------------------------------------
+Files worked on:
+- grafana/fraud_detection_dashboard.json
+- docs/rapport_projet.tex (LaTeX report)
+- docs/presentation_beamer.tex (Slides)
+- README.md
+- dashboard_results.html
+
+Key contributions:
+✓ Designed Grafana dashboard
+✓ Wrote complete LaTeX report (10 pages)
+✓ Created Beamer presentation (10 slides)
+✓ Documented project in README
+✓ Created HTML results dashboard
+
+================================================================================
+
+QUICK COMMANDS (Copy-Paste)
+================================================================================
+
+# Navigate to project
+cd "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project"
+
+# Check git status
+git status
+
+# Add remote (replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/big-data-fraud-detection.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+
+# If asked for credentials, enter your GitHub username and personal access token
+
+================================================================================
