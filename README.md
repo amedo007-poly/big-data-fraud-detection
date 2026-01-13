@@ -1,13 +1,27 @@
 # 🔒 Credit Card Fraud Detection - Big Data Pipeline
 
-[![Spark](https://img.shields.io/badge/Apache%20Spark-3.x-orange?logo=apache-spark)](https://spark.apache.org/)
+[![Spark](https://img.shields.io/badge/Apache%20Spark-3.5.0-orange?logo=apache-spark)](https://spark.apache.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://python.org/)
 [![MLlib](https://img.shields.io/badge/MLlib-Classification-green)](https://spark.apache.org/mllib/)
+[![GraphX](https://img.shields.io/badge/GraphX-Network%20Analysis-purple)](https://spark.apache.org/graphx/)
+[![Azure](https://img.shields.io/badge/Azure-Cloud%20Ready-blue?logo=microsoft-azure)](https://azure.microsoft.com/)
 [![Grafana](https://img.shields.io/badge/Grafana-Dashboard-orange?logo=grafana)](https://grafana.com/)
 [![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)](https://docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-> **Big Data Final Project** - Real-time fraud detection pipeline using Apache Spark, MLlib, and Grafana visualization.
+> **Big Data Final Project** - Real-time fraud detection pipeline using Apache Spark, MLlib, GraphX, Federated Learning, and Azure Cloud deployment.
+
+## 📊 Project Results
+
+| Metric | Value |
+|--------|-------|
+| **Total Transactions** | 282,982 |
+| **Frauds Detected** | 465 (0.1643%) |
+| **Model AUC** | 0.987 |
+| **Precision** | 100% |
+| **Recall** | 88.12% |
+| **GraphX Communities** | 4 |
+| **Federated Learning AUC** | 0.9535 |
 
 ## 👥 Team Members
 
@@ -19,21 +33,15 @@
 
 ---
 
-![Pipeline Architecture](docs/architecture.png)
-
----
-
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
 - [Architecture](#-architecture)
 - [Quick Start](#-quick-start)
-- [Project Structure](#-project-structure)
-- [Components](#-components)
 - [Results](#-results)
+- [Azure Deployment](#-azure-deployment)
 - [Grafana Dashboard](#-grafana-dashboard)
-- [Azure Integration](#-azure-integration)
 - [Documentation](#-documentation)
 
 ---
@@ -42,9 +50,12 @@
 
 This project implements a **complete Big Data pipeline** for credit card fraud detection, demonstrating mastery of:
 
-- **Apache Spark** (Core, SQL, MLlib, Streaming)
-- **Machine Learning** (RandomForest, Logistic Regression)
+- **Apache Spark** (Core, SQL, MLlib, Streaming, GraphX)
+- **Machine Learning** (RandomForest, Logistic Regression, GBT)
+- **Graph Analysis** (GraphX for fraud network detection)
+- **Federated Learning** (Privacy-preserving multi-bank collaboration)
 - **Real-time Processing** (Structured Streaming)
+- **Cloud Deployment** (Azure Databricks ready)
 - **Data Visualization** (Grafana Dashboard)
 
 ### Dataset
@@ -68,10 +79,24 @@ This project implements a **complete Big Data pipeline** for credit card fraud d
 - Export to Parquet format
 
 ### 🤖 MLlib Machine Learning
-- **RandomForest Classifier** (100 trees, depth=10)
+- **RandomForest Classifier** (100 trees, AUC=0.987)
 - **Logistic Regression** (ElasticNet regularization)
+- **Gradient Boosted Trees** (comparison)
 - Feature scaling with StandardScaler
 - Comprehensive evaluation metrics
+
+### 🕸️ GraphX Network Analysis
+- Fraud network graph construction
+- Community detection (4 communities identified)
+- Triangle counting (48 triangles)
+- PageRank for suspicious accounts
+- Connected components analysis
+
+### 🔐 Federated Learning
+- Privacy-preserving multi-bank training
+- FedAvg algorithm implementation
+- 3 simulated banks collaboration
+- Global model AUC: 0.9535
 
 ### ⚡ Real-time Streaming
 - File-based structured streaming
@@ -79,12 +104,17 @@ This project implements a **complete Big Data pipeline** for credit card fraud d
 - Alert generation
 - Metrics export for dashboard
 
+### ☁️ Azure Cloud Integration
+- Azure Databricks configuration
+- ARM deployment templates
+- Data Lake Gen2 storage
+- Event Hubs streaming
+
 ### 📊 Grafana Visualization
-- 6 KPI stat panels
+- Real-time KPI dashboard
+- Model performance metrics
+- Fraud alerts visualization
 - Time series graphs
-- ML performance gauges
-- Confusion matrix table
-- Live alerts feed
 
 ---
 
@@ -179,6 +209,9 @@ big-data-fraud-project/
 │   ├── spark_sql_analytics.py  # SQL cleaning & KPIs
 │   ├── mllib_fraud_model.py    # ML model training
 │   ├── streaming_fraud_detection.py  # Real-time processing
+│   ├── graphx_fraud_network.py # Graph analysis (NEW)
+│   ├── federated_learning.py   # Multi-bank FL (NEW)
+│   ├── evaluation_visualization.py # Generate plots (NEW)
 │   ├── prepare_grafana_data.py # Dashboard data prep
 │   └── generate_sample_data.py # Test data generator
 │
@@ -187,17 +220,31 @@ big-data-fraud-project/
 │   ├── predictions/            # Model predictions
 │   └── streaming/              # Real-time outputs
 │
+├── 📂 azure/
+│   ├── arm-template.json       # ARM deployment (NEW)
+│   ├── databricks_config.py    # Cluster config (NEW)
+│   └── deploy.sh               # Deployment script (NEW)
+│
 ├── 📂 grafana/
 │   ├── fraud_detection_dashboard.json  # Dashboard export
 │   └── data/                   # Visualization-ready files
 │
+├── 📂 screenshots/
+│   ├── Grafana capture 1-3.png # Grafana dashboards
+│   ├── Spark Jobs/Stages.png   # Spark UI captures
+│   ├── Azure Portal.png        # Azure resources (NEW)
+│   ├── Azure CLI.png           # CLI execution (NEW)
+│   └── *.png                   # ML visualizations
+│
 ├── 📂 docs/
-│   ├── rapport_projet.tex      # LaTeX report
-│   └── presentation_beamer.tex # Beamer slides
+│   ├── rapport_projet.pdf      # Project report (21 pages)
+│   ├── presentation_beamer.pdf # Presentation (28 slides)
+│   ├── AZURE_FEDERATED_GUIDE.md # Azure + FL guide (NEW)
+│   └── AZURE_STUDENTS_GUIDE.md  # Student setup (NEW)
 │
 ├── 📄 README.md
-├── 📄 GRAFANA_SETUP.md
-└── 📄 DOWNLOAD_DATASET.txt
+├── 📄 docker-compose.yml
+└── 📄 Dockerfile
 ```
 
 ---
@@ -249,27 +296,39 @@ big-data-fraud-project/
 
 ## 📈 Results
 
-### Model Performance
+### Model Performance (Real Execution)
 
-| Model | Accuracy | Precision | Recall | F1 | AUC-ROC |
-|-------|----------|-----------|--------|-----|---------|
-| **RandomForest** | 98.42% | 97.56% | 95.21% | 96.37% | **0.989** |
-| Logistic Regression | 97.56% | 96.23% | 94.12% | 95.16% | 0.973 |
+| Model | AUC-ROC | Precision | Recall | F1 Score |
+|-------|---------|-----------|--------|----------|
+| **RandomForest** | **0.987** | **100%** | **88.12%** | 93.68% |
+| Logistic Regression | 0.973 | 96.23% | 94.12% | 95.16% |
+| Gradient Boosted Trees | 0.981 | 98.45% | 86.54% | 92.11% |
 
-### Confusion Matrix (RandomForest)
+### GraphX Network Analysis
 
-|  | Predicted Normal | Predicted Fraud |
-|--|------------------|-----------------|
-| **Actual Normal** | 56,850 (TN) | 12 (FP) |
-| **Actual Fraud** | 8 (FN) | 88 (TP) |
+| Metric | Value |
+|--------|-------|
+| Communities Detected | 4 |
+| Triangles Found | 48 |
+| Network Density | 0.0234 |
+| Avg Clustering Coef | 0.156 |
+
+### Federated Learning Results
+
+| Bank | Local AUC | Data Size |
+|------|-----------|-----------|
+| Banque_A | 0.9697 | 94,327 |
+| Banque_B | 0.9881 | 94,327 |
+| Banque_C | 0.9028 | 94,328 |
+| **Global Model** | **0.9535** | - |
 
 ### Top Feature Importance
 
-1. V14 (15.23%)
-2. V17 (12.34%)
-3. V12 (9.87%)
-4. V10 (8.76%)
-5. V16 (7.65%)
+1. **V14** (24.15%) - Strongest fraud indicator
+2. **V17** (18.23%) 
+3. **V12** (12.87%)
+4. **V10** (9.76%)
+5. **V16** (7.65%)
 
 ---
 
@@ -307,17 +366,48 @@ docker run -d -p 3000:3000 --name=grafana grafana/grafana-oss
 
 ---
 
-## ☁️ Azure Integration
+## ☁️ Azure Deployment
 
-This pipeline is **cloud-ready** for Azure deployment:
+### Azure Resources Created
+
+| Resource | Region | Status |
+|----------|--------|--------|
+| **bigData** Resource Group | Switzerland North | ✅ Active |
+| VM-Master | Switzerland North | ✅ Running |
+| VM-Worker-1 | Switzerland North | ✅ Running |
+| **fraud-detection-rg** | West Europe | ✅ Created |
+
+### Azure for Students Setup
+
+```bash
+# Login to Azure
+az login
+
+# Create Resource Group
+az group create --name fraud-detection-rg --location westeurope
+
+# Deploy ARM Template
+az deployment group create \
+  --resource-group fraud-detection-rg \
+  --template-file azure/arm-template.json
+```
 
 ### Recommended Architecture
 
 ```
-Azure Blob Storage → Azure Databricks → Azure Stream Analytics → Power BI/Grafana
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│ Azure Event Hubs│────▶│ Azure Databricks │────▶│ Data Lake Gen2  │
+│   (Streaming)   │     │   (Spark 3.5)    │     │   (Storage)     │
+└─────────────────┘     └──────────────────┘     └─────────────────┘
+                               │
+                               ▼
+                        ┌──────────────────┐
+                        │  Azure Monitor   │
+                        │   + Grafana      │
+                        └──────────────────┘
 ```
 
-### Validation
+See [AZURE_FEDERATED_GUIDE.md](docs/AZURE_FEDERATED_GUIDE.md) for complete setup instructions.
 
 - Data uploaded to Azure Blob Storage
 - Code compatible with Databricks notebooks
