@@ -1,0 +1,169 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "description": "Azure Databricks deployment for Fraud Detection Pipeline",
+    "author": "Ahmed Dinari",
+    "project": "Big Data Fraud Detection"
+  },
+  "parameters": {
+    "workspaceName": {
+      "type": "string",
+      "defaultValue": "fraud-detection-workspace",
+      "metadata": {
+        "description": "Name of the Azure Databricks workspace"
+      }
+    },
+    "pricingTier": {
+      "type": "string",
+      "defaultValue": "standard",
+      "allowedValues": ["standard", "premium"],
+      "metadata": {
+        "description": "Pricing tier for Databricks workspace"
+      }
+    },
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Location for all resources"
+      }
+    },
+    "storageAccountName": {
+      "type": "string",
+      "defaultValue": "frauddetectiondatalake",
+      "metadata": {
+        "description": "Name for the Data Lake Storage account"
+      }
+    },
+    "eventHubNamespace": {
+      "type": "string",
+      "defaultValue": "fraud-streaming-hub",
+      "metadata": {
+        "description": "Event Hub namespace for streaming"
+      }
+    }
+  },
+  "variables": {
+    "managedResourceGroupName": "[concat('databricks-rg-', parameters('workspaceName'), '-', uniqueString(parameters('workspaceName'), resourceGroup().id))]",
+    "eventHubName": "transactions-stream"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Databricks/workspaces",
+      "apiVersion": "2023-02-01",
+      "name": "[parameters('workspaceName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "[parameters('pricingTier')]"
+      },
+      "properties": {
+        "managedResourceGroupId": "[subscriptionResourceId('Microsoft.Resources/resourceGroups', variables('managedResourceGroupName'))]",
+        "parameters": {
+          "enableNoPublicIp": {
+            "value": false
+          }
+        }
+      },
+      "tags": {
+        "project": "fraud-detection",
+        "environment": "production"
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2023-01-01",
+      "name": "[parameters('storageAccountName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2",
+      "properties": {
+        "isHnsEnabled": true,
+        "accessTier": "Hot",
+        "supportsHttpsTrafficOnly": true,
+        "minimumTlsVersion": "TLS1_2"
+      },
+      "tags": {
+        "project": "fraud-detection"
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2023-01-01",
+      "name": "[concat(parameters('storageAccountName'), '/default/raw-data')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2023-01-01",
+      "name": "[concat(parameters('storageAccountName'), '/default/processed-data')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2023-01-01",
+      "name": "[concat(parameters('storageAccountName'), '/default/models')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.EventHub/namespaces",
+      "apiVersion": "2022-10-01-preview",
+      "name": "[parameters('eventHubNamespace')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard",
+        "tier": "Standard",
+        "capacity": 1
+      },
+      "properties": {
+        "isAutoInflateEnabled": true,
+        "maximumThroughputUnits": 4
+      },
+      "tags": {
+        "project": "fraud-detection"
+      }
+    },
+    {
+      "type": "Microsoft.EventHub/namespaces/eventhubs",
+      "apiVersion": "2022-10-01-preview",
+      "name": "[concat(parameters('eventHubNamespace'), '/', variables('eventHubName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.EventHub/namespaces', parameters('eventHubNamespace'))]"
+      ],
+      "properties": {
+        "messageRetentionInDays": 1,
+        "partitionCount": 4
+      }
+    },
+    {
+      "type": "Microsoft.EventHub/namespaces/eventhubs/consumergroups",
+      "apiVersion": "2022-10-01-preview",
+      "name": "[concat(parameters('eventHubNamespace'), '/', variables('eventHubName'), '/spark-consumer')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.EventHub/namespaces/eventhubs', parameters('eventHubNamespace'), variables('eventHubName'))]"
+      ]
+    }
+  ],
+  "outputs": {
+    "databricksWorkspaceUrl": {
+      "type": "string",
+      "value": "[concat('https://', reference(resourceId('Microsoft.Databricks/workspaces', parameters('workspaceName'))).workspaceUrl)]"
+    },
+    "storageAccountName": {
+      "type": "string",
+      "value": "[parameters('storageAccountName')]"
+    },
+    "eventHubNamespace": {
+      "type": "string",
+      "value": "[parameters('eventHubNamespace')]"
+    }
+  }
+}

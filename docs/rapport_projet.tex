@@ -12,6 +12,7 @@
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{tocloft}
@@ -82,7 +83,7 @@
     {\Large avec Apache Spark et Machine Learning}\\[0.5cm]
     \rule{\textwidth}{1.5pt}\\[2cm]
     
-    \includegraphics[width=0.3\textwidth]{spark-logo.png}\\[1cm] % Add logo if available
+    \includegraphics[width=0.3\textwidth]{C:/Users/ahmed/OneDrive/Desktop/Everything/BIG Data Hadoop/Final Project/big-data-fraud-project/screenshots/spark-logo.png}\\[1cm] % Add logo if available
     
     {\Large\textbf{Technologies utilisées:}}\\[0.5cm]
     {\large Apache Spark $\bullet$ Spark SQL $\bullet$ MLlib $\bullet$ Spark Streaming $\bullet$ Grafana}\\[1.5cm]
@@ -293,12 +294,12 @@ scaler = StandardScaler(
 \textbf{Métrique} & \textbf{RandomForest} & \textbf{Logistic Regression} \\
 \midrule
 Accuracy & 0.9375 & 0.9258 \\
-Precision & 0.9428 & 0.9311 \\
-Recall & 0.9375 & 0.9258 \\
-F1 Score & 0.9355 & 0.9233 \\
-AUC-ROC & \textbf{0.9847} & 0.9861 \\
-Fraud Recall & 0.8072 & 0.7831 \\
-Fraud Precision & \textbf{1.0000} & 0.9848 \\
+Precision & 1.0000 & 0.9888 \\
+Recall & 0.8812 & 0.8713 \\
+F1 Score & 0.9370 & 0.9267 \\
+AUC-ROC & \textbf{0.9870} & 0.9856 \\
+True Positives & 410 & 396 \\
+False Positives & 0 & 5 \\
 \bottomrule
 \end{tabular}
 \caption{Comparaison des performances des modèles (Résultats Réels)}
@@ -396,30 +397,297 @@ Le dashboard est exporté en JSON et peut être importé dans toute instance Gra
 \end{itemize}
 
 % ============================================================================
+% GRAPHX
+% ============================================================================
+
+\section{Analyse de Graphes avec GraphX}
+
+\subsection{Objectif}
+
+L'analyse de graphes permet de détecter des patterns de fraude basés sur les relations entre transactions. En modélisant les transactions comme un réseau, nous pouvons identifier:
+\begin{itemize}
+    \item Des communautés de transactions suspectes
+    \item Des patterns temporels (triangles de fraude)
+    \item Les features les plus discriminantes via PageRank
+\end{itemize}
+
+\subsection{Implémentation}
+
+\begin{lstlisting}[caption={Analyse GraphX (extrait)}]
+# Creation du graphe de transactions
+# Noeuds = Transactions, Aretes = Similarite temporelle
+
+# Detection de communautes
+for f1, f2 in fraud_pairs:
+    time_diff = abs(f1.Time - f2.Time)
+    if time_diff < 3600:  # Meme heure
+        edges.append((f1.id, f2.id))
+
+# Calcul de triangles (patterns de fraude)
+triangles = count_triangles(fraud_graph)
+\end{lstlisting}
+
+\subsection{Résultats GraphX}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Métrique GraphX} & \textbf{Valeur} \\
+\midrule
+Transactions analysées & 284,807 \\
+Fraudes détectées & 492 \\
+Communautés identifiées & 4 \\
+Triangles de fraude & 48 \\
+\bottomrule
+\end{tabular}
+\caption{Résultats de l'analyse GraphX}
+\end{table}
+
+\subsubsection{Communautés Détectées}
+
+\begin{itemize}
+    \item \textbf{high\_risk\_1:} 114 transactions (montants 500-2000€)
+    \item \textbf{high\_risk\_2:} 210 transactions (montants > 2000€)
+    \item \textbf{medium\_risk:} 144 transactions (patterns nocturnes)
+    \item \textbf{low\_risk:} 24 transactions (anomalies isolées)
+\end{itemize}
+
+\subsubsection{Top Features par Séparation}
+
+L'analyse PageRank-style identifie les features les plus discriminantes:
+\begin{enumerate}
+    \item \textbf{V3:} Séparation = 7.91
+    \item \textbf{V14:} Séparation = 6.77
+    \item \textbf{V17:} Séparation = 6.61
+    \item \textbf{V7:} Séparation = 6.04
+    \item \textbf{V10:} Séparation = 5.75
+\end{enumerate}
+
+% ============================================================================
+% FEDERATED LEARNING
+% ============================================================================
+
+\section{Federated Learning (Concept)}
+
+\subsection{Architecture Proposée}
+
+Le Federated Learning permet d'entraîner des modèles sur des données distribuées sans centraliser les données sensibles.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\parbox{0.9\textwidth}{
+        \centering
+        \textbf{ARCHITECTURE FEDERATED LEARNING}\\[0.5cm]
+        \texttt{Banque A} $\rightarrow$ \texttt{Local Model} $\rightarrow$ \texttt{Gradients}\\
+        \texttt{Banque B} $\rightarrow$ \texttt{Local Model} $\rightarrow$ \texttt{Gradients} $\rightarrow$ \texttt{Aggregateur Central}\\
+        \texttt{Banque C} $\rightarrow$ \texttt{Local Model} $\rightarrow$ \texttt{Gradients}
+    }}
+    \caption{Architecture Federated Learning}
+\end{figure}
+
+\subsection{Avantages}
+
+\begin{itemize}
+    \item \textbf{Confidentialité:} Données restent chez chaque banque
+    \item \textbf{Conformité:} Respect RGPD et réglementations bancaires
+    \item \textbf{Scalabilité:} Ajout facile de nouveaux participants
+    \item \textbf{Robustesse:} Modèle global plus généralisable
+\end{itemize}
+
+\subsection{Protocole FedAvg}
+
+\begin{lstlisting}[caption={Algorithme FedAvg simplifie}]
+# Pseudo-code Federated Averaging
+for round in range(num_rounds):
+    # Chaque client entraine localement
+    for client in clients:
+        local_model = train_local(client.data)
+        gradients.append(local_model.params)
+    
+    # Aggregation centrale (moyenne ponderee)
+    global_model = weighted_average(gradients)
+    
+    # Distribution du modele global
+    broadcast(global_model)
+\end{lstlisting}
+
+% ============================================================================
 % AZURE
 % ============================================================================
 
-\section{Intégration Cloud (Azure)}
+\section{Déploiement Azure Cloud}
 
-\subsection{Architecture Cloud-Ready}
+\subsection{Architecture Azure}
 
-Le pipeline est conçu pour une migration vers Azure:
+\begin{figure}[H]
+    \centering
+    \fbox{\parbox{0.9\textwidth}{
+        \centering
+        \textbf{ARCHITECTURE AZURE DATABRICKS}\\[0.5cm]
+        \texttt{Event Hubs (Streaming)} $\rightarrow$ \texttt{Azure Databricks (Spark)} $\rightarrow$ \texttt{Data Lake Gen2}\\[0.3cm]
+        $\downarrow$\\[0.3cm]
+        \texttt{MLflow (Model Registry)} $\rightarrow$ \texttt{Azure Monitor (Alertes)}
+    }}
+    \caption{Architecture de déploiement Azure}
+\end{figure}
+
+\subsection{Composants Azure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Service Azure} & \textbf{Usage} & \textbf{Coût Estimé} \\
+\midrule
+Azure Databricks & Calcul Spark & \$120/mois \\
+Data Lake Storage Gen2 & Stockage données & \$20/mois \\
+Event Hubs & Ingestion streaming & \$30/mois \\
+Azure Monitor & Monitoring & \$10/mois \\
+\midrule
+\textbf{Total} & & \textbf{\$180/mois} \\
+\bottomrule
+\end{tabular}
+\caption{Estimation des coûts Azure}
+\end{table}
+
+\subsection{Configuration Databricks}
+
+\begin{lstlisting}[caption={Configuration cluster Databricks}]
+cluster_config = {
+    "cluster_name": "fraud-detection-cluster",
+    "spark_version": "13.3.x-scala2.12",
+    "node_type_id": "Standard_DS3_v2",
+    "autoscale": {
+        "min_workers": 2,
+        "max_workers": 8
+    },
+    "spark_conf": {
+        "spark.sql.adaptive.enabled": "true"
+    }
+}
+\end{lstlisting}
+
+\subsection{Captures Azure Portal}
+
+Les ressources Azure ont été créées avec succès:
 
 \begin{itemize}
-    \item \textbf{Azure Blob Storage:} Stockage des données
-    \item \textbf{Azure Databricks:} Exécution Spark managée
-    \item \textbf{Azure Stream Analytics:} Streaming production
-    \item \textbf{Azure Monitor:} Métriques et alertes
+    \item \textbf{Resource Group:} \texttt{fraud-detection-rg} (West Europe)
+    \item \textbf{Cluster bigData:} VM-Master + VM-Worker-1 (Switzerland North)
+    \item \textbf{Subscription:} Azure for Students
 \end{itemize}
 
-\subsection{Validation Cloud}
+\begin{figure}[H]
+    \centering
+    \fbox{\parbox{0.9\textwidth}{
+        \centering
+        \textbf{Azure CLI - Création du Resource Group}\\[0.3cm]
+        \texttt{az group create --name fraud-detection-rg --location westeurope}\\[0.2cm]
+        \texttt{"provisioningState": "Succeeded"}
+    }}
+    \caption{Commande Azure CLI pour la création des ressources}
+\end{figure}
 
-Pour ce projet, la validation cloud est effectuée via:
-\begin{itemize}
-    \item Upload des données vers Azure Blob Storage
-    \item Architecture documentée et reproductible
-    \item Code compatible Databricks
-\end{itemize}
+% ============================================================================
+% VISUALISATIONS
+% ============================================================================
+
+\section{Visualisations et Résultats}
+
+\subsection{Comparaison des Modèles}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{../screenshots/model_comparison.png}
+    \caption{Comparaison des performances: RandomForest vs Logistic Regression}
+\end{figure}
+
+\subsection{Importance des Features}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{../screenshots/feature_importance.png}
+    \caption{Top 10 features les plus importantes pour la détection}
+\end{figure}
+
+\subsection{Courbe ROC}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{../screenshots/roc_curve.png}
+    \caption{Courbes ROC - AUC = 0.987 (RandomForest)}
+\end{figure}
+
+\subsection{Distribution des Classes}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{../screenshots/class_distribution.png}
+    \caption{Distribution: 99.83\% Normal vs 0.17\% Fraude}
+\end{figure}
+
+\subsection{Distribution Horaire}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{../screenshots/hourly_distribution.png}
+    \caption{Patterns temporels des transactions normales et frauduleuses}
+\end{figure}
+
+\subsection{Interface Spark UI}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{"../screenshots/Spark Jobs.png"}
+    \caption{Spark Jobs - Vue d'ensemble des tâches exécutées}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{"../screenshots/Spark Stages.png"}
+    \caption{Spark Stages - Détail des étapes de traitement}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{../screenshots/Executors.png}
+    \caption{Spark Executors - Ressources et performances}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{"../screenshots/SQL Queries.png"}
+    \caption{Spark SQL - Requêtes analytiques exécutées}
+\end{figure}
+
+\subsection{MLlib et Modélisation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{"../screenshots/MLlib Section.png"}
+    \caption{MLlib - Entraînement des modèles de détection}
+\end{figure}
+
+\subsection{Dashboard Grafana}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{"../screenshots/Grafana capture 1.png"}
+    \caption{Dashboard Grafana - Vue principale des métriques}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{"../screenshots/Grafana capture 2.png"}
+    \caption{Dashboard Grafana - Analyse des performances ML}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{"../screenshots/Grafana capture 3.png"}
+    \caption{Dashboard Grafana - Monitoring temps réel}
+\end{figure}
 
 % ============================================================================
 % CONCLUSION
@@ -480,23 +748,28 @@ Ce projet démontre la maîtrise des technologies Big Data:
 
 \begin{lstlisting}[language=bash,caption={Arborescence du projet}]
 big-data-fraud-project/
-├── data/
-│   ├── raw/creditcard.csv
-│   ├── processed/
-│   └── streaming_input/
-├── src/
-│   ├── spark_sql_analytics.py
-│   ├── mllib_fraud_model.py
-│   ├── streaming_fraud_detection.py
-│   └── prepare_grafana_data.py
-├── outputs/
-│   ├── metrics/
-│   └── predictions/
-├── grafana/
-│   ├── fraud_detection_dashboard.json
-│   └── data/
-├── README.md
-└── report.pdf
+|-- data/
+|   |-- raw/creditcard.csv
+|   |-- processed/
+|   |-- streaming_input/
+|-- src/
+|   |-- spark_sql_analytics.py
+|   |-- mllib_fraud_model.py
+|   |-- streaming_fraud_detection.py
+|   |-- graphx_fraud_network.py
+|   |-- evaluation_visualization.py
+|-- outputs/
+|   |-- metrics/
+|   |-- predictions/
+|-- grafana/
+|   |-- fraud_detection_dashboard.json
+|   |-- data/
+|-- azure/
+|   |-- arm-template.json
+|   |-- databricks_config.py
+|-- screenshots/
+|-- docs/
+|-- README.md
 \end{lstlisting}
 
 \section{Commandes d'Exécution}

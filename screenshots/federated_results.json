@@ -1,0 +1,163 @@
+{
+  "algorithm": "FedAvg",
+  "description": "Federated Averaging pour d\u00e9tection de fraude",
+  "num_rounds": 5,
+  "num_clients": 3,
+  "total_transactions": 284807,
+  "total_frauds": 492,
+  "final_global_auc": 0.9535328581102976,
+  "history": [
+    {
+      "round": 1,
+      "clients": [
+        {
+          "name": "Banque_A",
+          "samples": 76013,
+          "auc": 0.9696692549409422,
+          "accuracy": 0.9979916494899846,
+          "precision": 0.6666666666666666,
+          "recall": 0.05128205128205128
+        },
+        {
+          "name": "Banque_B",
+          "samples": 76018,
+          "auc": 0.9881382282133924,
+          "accuracy": 0.9986785770918125,
+          "precision": 1.0,
+          "recall": 0.07407407407407407
+        },
+        {
+          "name": "Banque_C",
+          "samples": 76015,
+          "auc": 0.9028160009066786,
+          "accuracy": 0.9978859468315628,
+          "precision": 1.0,
+          "recall": 0.06976744186046512
+        }
+      ],
+      "global_auc": 0.9535414750404423
+    },
+    {
+      "round": 2,
+      "clients": [
+        {
+          "name": "Banque_A",
+          "samples": 76013,
+          "auc": 0.969672649844242,
+          "accuracy": 0.9979916494899846,
+          "precision": 0.6666666666666666,
+          "recall": 0.05128205128205128
+        },
+        {
+          "name": "Banque_B",
+          "samples": 76018,
+          "auc": 0.9881107817535936,
+          "accuracy": 0.9986785770918125,
+          "precision": 1.0,
+          "recall": 0.07407407407407407
+        },
+        {
+          "name": "Banque_C",
+          "samples": 76015,
+          "auc": 0.9028554217164314,
+          "accuracy": 0.9978859468315628,
+          "precision": 1.0,
+          "recall": 0.06976744186046512
+        }
+      ],
+      "global_auc": 0.9535465977115565
+    },
+    {
+      "round": 3,
+      "clients": [
+        {
+          "name": "Banque_A",
+          "samples": 76013,
+          "auc": 0.9696638230956628,
+          "accuracy": 0.9979916494899846,
+          "precision": 0.6666666666666666,
+          "recall": 0.05128205128205128
+        },
+        {
+          "name": "Banque_B",
+          "samples": 76018,
+          "auc": 0.9881421491362207,
+          "accuracy": 0.9986785770918125,
+          "precision": 1.0,
+          "recall": 0.07407407407407407
+        },
+        {
+          "name": "Banque_C",
+          "samples": 76015,
+          "auc": 0.9028258561091167,
+          "accuracy": 0.9978859468315628,
+          "precision": 1.0,
+          "recall": 0.06976744186046512
+        }
+      ],
+      "global_auc": 0.9535442565541266
+    },
+    {
+      "round": 4,
+      "clients": [
+        {
+          "name": "Banque_A",
+          "samples": 76013,
+          "auc": 0.9696950562060191,
+          "accuracy": 0.9979916494899846,
+          "precision": 0.6666666666666666,
+          "recall": 0.05128205128205128
+        },
+        {
+          "name": "Banque_B",
+          "samples": 76018,
+          "auc": 0.9881303863677355,
+          "accuracy": 0.9986785770918125,
+          "precision": 1.0,
+          "recall": 0.07407407407407407
+        },
+        {
+          "name": "Banque_C",
+          "samples": 76015,
+          "auc": 0.9028123052057644,
+          "accuracy": 0.9978859468315628,
+          "precision": 1.0,
+          "recall": 0.06976744186046512
+        }
+      ],
+      "global_auc": 0.9535462292629857
+    },
+    {
+      "round": 5,
+      "clients": [
+        {
+          "name": "Banque_A",
+          "samples": 76013,
+          "auc": 0.9696719708635818,
+          "accuracy": 0.9979916494899846,
+          "precision": 0.6666666666666666,
+          "recall": 0.05128205128205128
+        },
+        {
+          "name": "Banque_B",
+          "samples": 76018,
+          "auc": 0.9881127422150077,
+          "accuracy": 0.9986785770918125,
+          "precision": 1.0,
+          "recall": 0.07407407407407407
+        },
+        {
+          "name": "Banque_C",
+          "samples": 76015,
+          "auc": 0.9028129211559169,
+          "accuracy": 0.9978859468315628,
+          "precision": 1.0,
+          "recall": 0.06976744186046512
+        }
+      ],
+      "global_auc": 0.9535328581102976
+    }
+  ],
+  "privacy_preserved": true,
+  "data_centralization": false
+}

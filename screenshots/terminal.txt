@@ -1,0 +1,1955 @@
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+))) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty))
+
+Package hyperref Message: Stopped early.
+
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty)
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+)))))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tionsymbols.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadri
+d.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+orchid.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-generic-helper.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-mapping.def))) (presentation_beamer.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (presentation_beamer.out) (presentation_beamer.out)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict) (presentation_beamer.nav)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree0.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree3.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree2.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
+erncmss.fd) [1{C:/Users/ahmed/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5f
+ree0.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawes
+ome5/fa5free3.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/fontawesome5/fa5free2.enc} <../screenshots/spark-logo.png>] [2]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd) [3{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fon
+tawesome5/fa5free1.enc}] [4] [5] (presentation_beamer.vrb
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd))
+[6] [7] [8] [9] [10] (presentation_beamer.vrb) [11] [12] [13]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mebrands0.fd) [14{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+fontawesome5/fa5brands0.enc}] [15] (presentation_beamer.aux) ) <C:\Users\ahmed\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0500.pk> <C:\Users\
+ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi375\ectt0800.pk> <C:\
+Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk
+> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1
+440.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecss0500.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecss0800.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecsx1000.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecss0900.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk><C:/Users/ahmed/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Us
+ers/ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwe
+some5Free-Solid.pfb><C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb>
+Output written on presentation_beamer.pdf (15 pages, 360526 bytes).
+Transcript written on presentation_beamer.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(presentation_beamer.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
+s.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+))) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty))
+
+Package hyperref Message: Stopped early.
+
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty)
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+)))))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tionsymbols.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadri
+d.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+orchid.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-generic-helper.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-mapping.def))) (presentation_beamer.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (presentation_beamer.out) (presentation_beamer.out)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict) (presentation_beamer.nav)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree0.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree3.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree2.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
+erncmss.fd) [1{C:/Users/ahmed/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5f
+ree0.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawes
+ome5/fa5free3.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/fontawesome5/fa5free2.enc} <../screenshots/spark-logo.png>] [2]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd) [3{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fon
+tawesome5/fa5free1.enc}] [4] [5] (presentation_beamer.vrb
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd))
+[6] [7] [8] [9] [10] (presentation_beamer.vrb) [11] [12] [13]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mebrands0.fd) [14{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+fontawesome5/fa5brands0.enc}] [15] (presentation_beamer.aux) ) <C:\Users\ahmed\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0500.pk> <C:\Users\
+ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi375\ectt0800.pk> <C:\
+Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk
+> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1
+440.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecss0500.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecss0800.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecsx1000.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecss0900.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk><C:/Users/ahmed/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Us
+ers/ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwe
+some5Free-Solid.pfb><C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb>
+Output written on presentation_beamer.pdf (15 pages, 360526 bytes).
+Transcript written on presentation_beamer.log.
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> Get-Item "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs\presentation_beamer.pdf" | Select-Object Name, Length, LastWriteTime
+
+Name                    Length LastWriteTime
+----                    ------ -------------
+presentation_beamer.pdf 360526 1/13/2026 6:16:37 AM
+
+
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker exec fraud-spark cat
+ /app/outputs/metrics/ml_metrics_randomforest.json
+{
+  "model_name": "RandomForest",
+  "timestamp": "2026-01-13T04:24:25.096651",
+  "metrics": {
+    "auc_roc": 0.9847,
+    "auc_pr": 0.9754,
+    "accuracy": 0.9375,
+    "precision": 0.9428,
+    "recall": 0.9375,
+    "f1_score": 0.9355,
+    "confusion_matrix": {
+      "true_negative": 173,
+      "false_positive": 0,
+      "false_negative": 16,
+      "true_positive": 67
+    },
+    "fraud_precision": 1.0,
+    "fraud_recall": 0.8072
+  },
+  "feature_importance": {
+    "V14": 0.21707594438865058,
+    "V17": 0.1450464678471083,
+    "V10": 0.12882853753783421,
+    "V12": 0.10111615373115758,
+    "V11": 0.09809432322645949,
+    "V4": 0.08094222103703737,
+    "V3": 0.04719305081569846,
+    "V7": 0.03011744638814573,
+    "V2": 0.02217176277159837,
+    "V16": 0.01780633668632692,
+    "V9": 0.016718455033363323,
+    "V6": 0.016360886531367497,
+    "Amount": 0.008013662565559566,
+    "V19": 0.006987489044565369,
+    "V1": 0.0067080082878600315,
+    "V18": 0.005944525977479695,
+    "V27": 0.005569560498042088,
+    "V13": 0.005183866619713618,
+    "V5": 0.005095843076416945,
+    "V8": 0.004845106845117465,
+    "V28": 0.004464808622314986,
+    "V20": 0.0040954323751573995,
+    "V21": 0.004050044681402789,
+    "V23": 0.003837252796602684,
+    "V26": 0.0034857219637961182,
+    "V15": 0.003345962608583169,
+    "V25": 0.0025182668722857704,
+    "V24": 0.00243641994834106,
+    "V22": 0.0019464412220134189
+  }
+}
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\src\graphx_fraud_network.py" fraud-spark:/app/src/  
+Successfully copied 10.2kB to fraud-spark:/app/src/
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\src\evaluation_visualization.py" fraud-spark:/app/src/
+Successfully copied 16.9kB to fraud-spark:/app/src/
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker exec fraud-spark spark-submit /app/src/graphx_fraud_network.py
+26/01/13 05:20:25 INFO SparkContext: Running Spark version 3.5.0
+26/01/13 05:20:25 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:20:25 INFO SparkContext: Java version 17.0.17
+26/01/13 05:20:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/01/13 05:20:25 INFO ResourceUtils: ==============================================================
+26/01/13 05:20:25 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/01/13 05:20:25 INFO ResourceUtils: ==============================================================
+26/01/13 05:20:25 INFO SparkContext: Submitted application: GraphX_Fraud_Network_Analysis
+26/01/13 05:20:25 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/01/13 05:20:25 INFO ResourceProfile: Limiting resource is cpu
+26/01/13 05:20:25 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/01/13 05:20:25 INFO SecurityManager: Changing view acls to: root
+26/01/13 05:20:25 INFO SecurityManager: Changing modify acls to: root
+26/01/13 05:20:25 INFO SecurityManager: Changing view acls groups to:
+26/01/13 05:20:25 INFO SecurityManager: Changing modify acls groups to:
+26/01/13 05:20:25 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/01/13 05:20:25 INFO Utils: Successfully started service 'sparkDriver' on port 46649.
+26/01/13 05:20:25 INFO SparkEnv: Registering MapOutputTracker
+26/01/13 05:20:25 INFO SparkEnv: Registering BlockManagerMaster
+26/01/13 05:20:25 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/01/13 05:20:25 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/01/13 05:20:25 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/01/13 05:20:25 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-be81b095-37ae-45a5-be25-a02934a595a3
+26/01/13 05:20:25 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/01/13 05:20:25 INFO SparkEnv: Registering OutputCommitCoordinator
+26/01/13 05:20:25 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/01/13 05:20:25 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/01/13 05:20:25 INFO Executor: Starting executor ID driver on host 737e7500bb89
+26/01/13 05:20:25 INFO Executor: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:20:25 INFO Executor: Java version 17.0.17
+26/01/13 05:20:25 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26/01/13 05:20:25 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@50a09069 for default.
+26/01/13 05:20:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43263.
+26/01/13 05:20:25 INFO NettyBlockTransferService: Server created on 737e7500bb89:43263
+26/01/13 05:20:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy       
+26/01/13 05:20:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 737e7500bb89, 43263, None)
+26/01/13 05:20:25 INFO BlockManagerMasterEndpoint: Registering block manager 737e7500bb89:43263 with 434.4 MiB RAM, BlockManagerId(driver, 737e7500bb89, 43263, None)
+26/01/13 05:20:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 737e7500bb89, 43263, None)
+26/01/13 05:20:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 737e7500bb89, 43263, None)
+============================================================
+GRAPHX FRAUD NETWORK ANALYSIS
+============================================================
+Traceback (most recent call last):
+  File "/app/src/graphx_fraud_network.py", line 29, in <module>
+    df = spark.read.csv(DATA_PATH, header=True, inferSchema=True)
+  File "/usr/local/lib/python3.10/site-packages/pyspark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 740, in csv
+  File "/usr/local/lib/python3.10/site-packages/pyspark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+  File "/usr/local/lib/python3.10/site-packages/pyspark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 185, in deco
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/app/data/creditcard_cleaned.csv.  
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker exec fraud-spark ls -la /app/data/
+total 4
+drwxrwxrwx 1 root root  512 Jan 13 03:33 .
+drwxr-xr-x 1 root root 4096 Jan 13 04:21 ..
+drwxrwxrwx 1 root root  512 Jan 13 04:22 processed
+drwxrwxrwx 1 root root  512 Jan 13 03:38 raw
+drwxrwxrwx 1 root root  512 Jan 13 03:33 streaming_input
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker exec fraud-spark ls -la /app/data/raw/
+total 147296
+drwxrwxrwx 1 root root       512 Jan 13 03:38 .
+drwxrwxrwx 1 root root       512 Jan 13 03:33 ..
+-rwxrwxrwx 1 root root        59 Jan 13 03:47 .gitkeep
+-rwxrwxrwx 1 root root 150828752 Jan 13 03:38 creditcard.csv
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\src\graphx_fraud_network.py" fraud-spark:/app/src/; docker exec fraud-spark spark-submit /app/src/graphx_fraud_network.py
+Successfully copied 10.2kB to fraud-spark:/app/src/
+26/01/13 05:20:51 INFO SparkContext: Running Spark version 3.5.0
+26/01/13 05:20:51 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:20:51 INFO SparkContext: Java version 17.0.17
+26/01/13 05:20:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/01/13 05:20:51 INFO ResourceUtils: ==============================================================
+26/01/13 05:20:51 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/01/13 05:20:51 INFO ResourceUtils: ==============================================================
+26/01/13 05:20:51 INFO SparkContext: Submitted application: GraphX_Fraud_Network_Analysis
+26/01/13 05:20:51 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/01/13 05:20:51 INFO ResourceProfile: Limiting resource is cpu
+26/01/13 05:20:51 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/01/13 05:20:51 INFO SecurityManager: Changing view acls to: root
+26/01/13 05:20:51 INFO SecurityManager: Changing modify acls to: root
+26/01/13 05:20:51 INFO SecurityManager: Changing view acls groups to: 
+26/01/13 05:20:51 INFO SecurityManager: Changing modify acls groups to:
+26/01/13 05:20:51 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/01/13 05:20:51 INFO Utils: Successfully started service 'sparkDriver' on port 39101.
+26/01/13 05:20:51 INFO SparkEnv: Registering MapOutputTracker
+26/01/13 05:20:51 INFO SparkEnv: Registering BlockManagerMaster
+26/01/13 05:20:51 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/01/13 05:20:51 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/01/13 05:20:51 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/01/13 05:20:51 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-acd9c85c-d557-4757-bbcb-319c638d431e
+26/01/13 05:20:51 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/01/13 05:20:51 INFO SparkEnv: Registering OutputCommitCoordinator
+26/01/13 05:20:51 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/01/13 05:20:51 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/01/13 05:20:51 INFO Executor: Starting executor ID driver on host 737e7500bb89
+26/01/13 05:20:51 INFO Executor: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:20:51 INFO Executor: Java version 17.0.17
+26/01/13 05:20:51 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26/01/13 05:20:51 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@37dfa8fc for default.
+26/01/13 05:20:51 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 32901.
+26/01/13 05:20:51 INFO NettyBlockTransferService: Server created on 737e7500bb89:32901
+26/01/13 05:20:51 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy       
+26/01/13 05:20:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 737e7500bb89, 32901, None)
+26/01/13 05:20:51 INFO BlockManagerMasterEndpoint: Registering block manager 737e7500bb89:32901 with 434.4 MiB RAM, BlockManagerId(driver, 737e7500bb89, 32901, None)
+26/01/13 05:20:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 737e7500bb89, 32901, None)
+26/01/13 05:20:51 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 737e7500bb89, 32901, None)
+============================================================
+GRAPHX FRAUD NETWORK ANALYSIS
+============================================================
+
+📊 Dataset loaded: 284807 transactions
+
+============================================================
+1. TRANSACTION SIMILARITY ANALYSIS
+============================================================
+26/01/13 05:20:56 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+   Fraud transactions: 492
+
+📈 Fraud Amount Clusters:
++-------+------------------+-----+------------------+------------------+-------------------+
+|cluster|           avg_V14|count|        avg_amount|            avg_V1|            avg_V17|
++-------+------------------+-----+------------------+------------------+-------------------+
+| medium|-6.482871834308719|   95|230.67168421052628|-4.244087312971266|  -7.64538693642041|
+|  small|-6.891619896905821|  113|58.056283185840705|-7.959832180300889| -9.218781351626737|
+|  micro|-7.561035030519583|  249|1.8429718875502012|-3.834009190837324| -5.421709465374994|
+|  large|-4.364687676910782|   35| 891.2828571428571|-2.585171816655541|-4.6157657130600045|
++-------+------------------+-----+------------------+------------------+-------------------+
+
+
+============================================================
+2. TEMPORAL FRAUD PATTERNS
+============================================================
+
+🕐 Hourly Fraud Distribution:
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   ...
+
+============================================================
+3. FEATURE IMPORTANCE NETWORK (PageRank-style)
+============================================================
+
+🔗 Feature Importance (by class separation):
+   1. V3: separation = 7.9078
+   2. V14: separation = 6.7736
+   3. V17: separation = 6.6091
+   4. V12: separation = 6.5036
+   5. V10: separation = 5.7184
+
+============================================================
+4. FRAUD COMMUNITIES DETECTION
+============================================================
+
+🏘️ Fraud Communities:
+   medium_risk: 144 frauds, avg=$154.09
+   high_risk_1: 114 frauds, avg=$73.98
+   high_risk_2: 210 frauds, avg=$107.24
+   low_risk: 24 frauds, avg=$291.05
+
+============================================================
+5. FRAUD PATTERN TRIANGLES
+============================================================
+
+🔺 Detected 48 fraud pattern triangles
+   (Groups of 3+ similar transactions)
+
+============================================================
+SAVING GRAPHX ANALYSIS RESULTS
+============================================================
+
+✅ Results saved to: /app/outputs/metrics/graphx_metrics.json
+
+============================================================
+📊 GRAPHX ANALYSIS SUMMARY
+============================================================
+   • Total Transactions: 284,807
+   • Fraud Detected: 492
+   • Communities Found: 4
+   • Pattern Triangles: 48
+   • Top Feature: V3 (sep=7.91)
+============================================================
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\src\evaluation_visualization.py" fraud-spark:/app/src/; docker exec fraud-spark pip install matplotlib -q; docker exec fraud-spark spark-submit /app/src/evaluation_visualization.py    
+Successfully copied 16.9kB to fraud-spark:/app/src/
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+26/01/13 05:21:19 INFO SparkContext: Running Spark version 3.5.0
+26/01/13 05:21:19 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:21:19 INFO SparkContext: Java version 17.0.17
+26/01/13 05:21:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/01/13 05:21:19 INFO ResourceUtils: ==============================================================
+26/01/13 05:21:19 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/01/13 05:21:19 INFO ResourceUtils: ==============================================================
+26/01/13 05:21:19 INFO SparkContext: Submitted application: Model_Evaluation_Visualization
+26/01/13 05:21:19 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/01/13 05:21:19 INFO ResourceProfile: Limiting resource is cpu
+26/01/13 05:21:19 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/01/13 05:21:19 INFO SecurityManager: Changing view acls to: root
+26/01/13 05:21:19 INFO SecurityManager: Changing modify acls to: root
+26/01/13 05:21:19 INFO SecurityManager: Changing view acls groups to: 
+26/01/13 05:21:19 INFO SecurityManager: Changing modify acls groups to:
+26/01/13 05:21:19 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/01/13 05:21:19 INFO Utils: Successfully started service 'sparkDriver' on port 35703.
+26/01/13 05:21:19 INFO SparkEnv: Registering MapOutputTracker
+26/01/13 05:21:19 INFO SparkEnv: Registering BlockManagerMaster
+26/01/13 05:21:19 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/01/13 05:21:19 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/01/13 05:21:19 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/01/13 05:21:19 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-f36042e4-4212-4b44-b4e0-79dc5a0d6b18
+26/01/13 05:21:19 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/01/13 05:21:19 INFO SparkEnv: Registering OutputCommitCoordinator
+26/01/13 05:21:19 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/01/13 05:21:19 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/01/13 05:21:19 INFO Executor: Starting executor ID driver on host 737e7500bb89
+26/01/13 05:21:19 INFO Executor: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:21:19 INFO Executor: Java version 17.0.17
+26/01/13 05:21:19 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26/01/13 05:21:19 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@36d7bab for default.
+26/01/13 05:21:19 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39139.
+26/01/13 05:21:19 INFO NettyBlockTransferService: Server created on 737e7500bb89:39139
+26/01/13 05:21:19 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy       
+26/01/13 05:21:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 737e7500bb89, 39139, None)
+26/01/13 05:21:19 INFO BlockManagerMasterEndpoint: Registering block manager 737e7500bb89:39139 with 434.4 MiB RAM, BlockManagerId(driver, 737e7500bb89, 39139, None)
+26/01/13 05:21:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 737e7500bb89, 39139, None)
+26/01/13 05:21:19 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 737e7500bb89, 39139, None)
+============================================================
+MODEL EVALUATION & VISUALIZATION
+============================================================
+
+📊 Loaded 284807 transactions
+
+============================================================
+1. DATA PREPARATION
+============================================================
+26/01/13 05:21:23 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+   Balanced dataset: 3329 samples
+   Fraud: 492, Normal sample: 2837
+   Train: 2633, Test: 696
+
+============================================================
+2. MODEL TRAINING
+============================================================
+   Training RandomForest...
++-------+------------------+-----+------------------+------------------+-------------------+
+|cluster|           avg_V14|count|        avg_amount|            avg_V1|            avg_V17|
++-------+------------------+-----+------------------+------------------+-------------------+
+| medium|-6.482871834308719|   95|230.67168421052628|-4.244087312971266|  -7.64538693642041|
+|  small|-6.891619896905821|  113|58.056283185840705|-7.959832180300889| -9.218781351626737|
+|  micro|-7.561035030519583|  249|1.8429718875502012|-3.834009190837324| -5.421709465374994|
+|  large|-4.364687676910782|   35| 891.2828571428571|-2.585171816655541|-4.6157657130600045|
++-------+------------------+-----+------------------+------------------+-------------------+
+
+
+============================================================
+2. TEMPORAL FRAUD PATTERNS
+============================================================
+
+🕐 Hourly Fraud Distribution:
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   Hour 00: 1 frauds
+   ...
+
+============================================================
+3. FEATURE IMPORTANCE NETWORK (PageRank-style)
+============================================================
+
+🔗 Feature Importance (by class separation):
+   1. V3: separation = 7.9078
+   2. V14: separation = 6.7736
+   3. V17: separation = 6.6091
+   4. V12: separation = 6.5036
+   5. V10: separation = 5.7184
+
+============================================================
+4. FRAUD COMMUNITIES DETECTION
+============================================================
+
+🏘️ Fraud Communities:
+   medium_risk: 144 frauds, avg=$154.09
+   high_risk_1: 114 frauds, avg=$73.98
+   high_risk_2: 210 frauds, avg=$107.24
+   low_risk: 24 frauds, avg=$291.05
+
+============================================================
+5. FRAUD PATTERN TRIANGLES
+============================================================
+
+🔺 Detected 48 fraud pattern triangles
+   (Groups of 3+ similar transactions)
+
+============================================================
+SAVING GRAPHX ANALYSIS RESULTS
+============================================================
+
+✅ Results saved to: /app/outputs/metrics/graphx_metrics.json
+
+============================================================
+📊 GRAPHX ANALYSIS SUMMARY
+============================================================
+   • Total Transactions: 284,807
+   • Fraud Detected: 492
+   • Communities Found: 4
+   • Pattern Triangles: 48
+   • Top Feature: V3 (sep=7.91)
+============================================================
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\src\evaluation_visualization.py" fraud-spark:/app/src/; docker exec fraud-spark pip install matplotlib -q; docker exec fraud-spark spark-submit /app/src/evaluation_visualization.py    
+Successfully copied 16.9kB to fraud-spark:/app/src/
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+26/01/13 05:21:19 INFO SparkContext: Running Spark version 3.5.0
+26/01/13 05:21:19 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:21:19 INFO SparkContext: Java version 17.0.17
+26/01/13 05:21:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/01/13 05:21:19 INFO ResourceUtils: ==============================================================
+26/01/13 05:21:19 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/01/13 05:21:19 INFO ResourceUtils: ==============================================================
+26/01/13 05:21:19 INFO SparkContext: Submitted application: Model_Evaluation_Visualization
+26/01/13 05:21:19 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/01/13 05:21:19 INFO ResourceProfile: Limiting resource is cpu
+26/01/13 05:21:19 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/01/13 05:21:19 INFO SecurityManager: Changing view acls to: root
+26/01/13 05:21:19 INFO SecurityManager: Changing modify acls to: root
+26/01/13 05:21:19 INFO SecurityManager: Changing view acls groups to: 
+26/01/13 05:21:19 INFO SecurityManager: Changing modify acls groups to:
+26/01/13 05:21:19 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/01/13 05:21:19 INFO Utils: Successfully started service 'sparkDriver' on port 35703.
+26/01/13 05:21:19 INFO SparkEnv: Registering MapOutputTracker
+26/01/13 05:21:19 INFO SparkEnv: Registering BlockManagerMaster
+26/01/13 05:21:19 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/01/13 05:21:19 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/01/13 05:21:19 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/01/13 05:21:19 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-f36042e4-4212-4b44-b4e0-79dc5a0d6b18
+26/01/13 05:21:19 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/01/13 05:21:19 INFO SparkEnv: Registering OutputCommitCoordinator
+26/01/13 05:21:19 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/01/13 05:21:19 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/01/13 05:21:19 INFO Executor: Starting executor ID driver on host 737e7500bb89
+26/01/13 05:21:19 INFO Executor: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/01/13 05:21:19 INFO Executor: Java version 17.0.17
+26/01/13 05:21:19 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26/01/13 05:21:19 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@36d7bab for default.
+26/01/13 05:21:19 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39139.
+26/01/13 05:21:19 INFO NettyBlockTransferService: Server created on 737e7500bb89:39139
+26/01/13 05:21:19 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy       
+26/01/13 05:21:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 737e7500bb89, 39139, None)
+26/01/13 05:21:19 INFO BlockManagerMasterEndpoint: Registering block manager 737e7500bb89:39139 with 434.4 MiB RAM, BlockManagerId(driver, 737e7500bb89, 39139, None)
+26/01/13 05:21:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 737e7500bb89, 39139, None)
+26/01/13 05:21:19 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 737e7500bb89, 39139, None)
+============================================================
+MODEL EVALUATION & VISUALIZATION
+============================================================
+
+📊 Loaded 284807 transactions
+
+============================================================
+1. DATA PREPARATION
+============================================================
+26/01/13 05:21:23 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+   Balanced dataset: 3329 samples
+   Fraud: 492, Normal sample: 2837
+   Train: 2633, Test: 696
+
+============================================================
+2. MODEL TRAINING
+============================================================
+   Training RandomForest...
+26/01/13 05:21:37 WARN DAGScheduler: Broadcasting large task binary with size 1171.3 KiB
+26/01/13 05:21:37 WARN DAGScheduler: Broadcasting large task binary with size 1354.1 KiB
+   Training Logistic Regression...
+26/01/13 05:21:40 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.JNIBLAS
+26/01/13 05:21:40 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.VectorBLAS
+
+============================================================
+3. EVALUATION METRICS
+============================================================
+26/01/13 05:21:43 WARN DAGScheduler: Broadcasting large task binary with size 1091.4 KiB
+26/01/13 05:21:44 WARN DAGScheduler: Broadcasting large task binary with size 1091.4 KiB
+26/01/13 05:21:46 WARN DAGScheduler: Broadcasting large task binary with size 1103.5 KiB
+26/01/13 05:21:47 WARN DAGScheduler: Broadcasting large task binary with size 1094.9 KiB
+26/01/13 05:21:48 WARN DAGScheduler: Broadcasting large task binary with size 1094.9 KiB
+26/01/13 05:21:50 WARN DAGScheduler: Broadcasting large task binary with size 1094.9 KiB
+26/01/13 05:21:51 WARN DAGScheduler: Broadcasting large task binary with size 1094.9 KiB
+
+   RandomForest: AUC=0.987, Precision=1.0, Recall=0.8812
+   LogisticReg:  AUC=0.9856, Precision=0.9888, Recall=0.8713
+
+============================================================
+4. GENERATING VISUALIZATIONS
+============================================================
+   ✅ Saved: /app/outputs/visualizations/model_comparison.png
+   ✅ Saved: /app/outputs/visualizations/confusion_matrices.png
+   ✅ Saved: /app/outputs/visualizations/feature_importance.png
+   ✅ Saved: /app/outputs/visualizations/hourly_distribution.png
+   ✅ Saved: /app/outputs/visualizations/class_distribution.png
+   ✅ Saved: /app/outputs/visualizations/roc_curve.png
+
+============================================================
+5. SAVING COMPREHENSIVE METRICS
+============================================================
+   ✅ Saved: /app/outputs/metrics/evaluation_complete.json
+
+============================================================
+📊 EVALUATION COMPLETE
+============================================================
+   📈 6 visualizations generated
+   🏆 Best Model: RandomForest
+   📊 AUC-ROC: 0.987
+   🎯 Precision: 1.0
+   📍 Recall: 0.8812
+============================================================
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp fraud-spark:/app/outputs/visualizations/. "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\"
+CreateFile C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots": The filename, directory name, or volume label syntax is incorrect.
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp fraud-spark:/app/outputs/visualizations/model_comparison.png "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\model_comparison.png"
+Successfully copied 58.4kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\model_comparison.png
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp fraud-spark:/app/outputs/visualizations/confusion_matrices.png "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\confusion_matrices.png"; docker cp fraud-spark:/app/outputs/visualizations/feature_importance.png "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\feature_importance.png"; docker cp fraud-spark:/app/outputs/visualizations/roc_curve.png "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\roc_curve.png"; docker cp fraud-spark:/app/outputs/visualizations/hourly_distribution.png "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\hourly_distribution.png"; docker cp fraud-spark:/app/outputs/visualizations/class_distribution.png "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\class_distribution.png"
+Successfully copied 42kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\confusion_matrices.png
+Successfully copied 44.5kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\feature_importance.png
+Successfully copied 101kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\roc_curve.png
+Successfully copied 114kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\hourly_distribution.png
+Successfully copied 75.3kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\class_distribution.png
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> docker cp fraud-spark:/app/outputs/metrics/graphx_metrics.json "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\graphx_metrics.json"; docker cp fraud-spark:/app/outputs/metrics/evaluation_complete.json "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\evaluation_complete.json"
+Successfully copied 28.7kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\graphx_metrics.json
+Successfully copied 3.07kB to C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\screenshots\evaluation_complete.json
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> Remove-Item "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs\presentation_beamer.tex" -Force
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> cd "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs"; pdflatex -interaction=nonstopmode presentation_beamer.tex; pdflatex -interaction=nonstopmode presentation_beamer.tex
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(presentation_beamer.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
+s.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+))) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty))
+
+Package hyperref Message: Stopped early.
+
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty)
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+)))))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tionsymbols.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadri
+d.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+orchid.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-generic-helper.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-mapping.def))) (presentation_beamer.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (presentation_beamer.out) (presentation_beamer.out)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict) (presentation_beamer.nav)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree0.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree3.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree2.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
+erncmss.fd) [1{C:/Users/ahmed/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5f
+ree0.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawes
+ome5/fa5free3.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/fontawesome5/fa5free2.enc}] [2]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd) [3{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fon
+tawesome5/fa5free1.enc}] [4] [5] (presentation_beamer.vrb
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd))
+[6] [7] [8 <../screenshots/model_comparison.png>]
+Overfull \vbox (55.80998pt too high) detected at line 395
+[9 <../screenshots/feature_importance.png>]
+Overfull \vbox (34.04611pt too high) detected at line 401
+[10 <../screenshots/roc_curve.png>] [11] [12] (presentation_beamer.vrb)
+[13] [14]
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+
+Overfull \hbox (9403.79123pt too wide) in paragraph at lines 670--670
+ []
+[15] [16 <../screenshots/class_distribution.png>] [17 <../screenshots/hourly_di
+stribution.png>]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mebrands0.fd) [18{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+fontawesome5/fa5brands0.enc}] [19] (presentation_beamer.aux) )
+(see the transcript file for additional information) <C:\Users\ahmed\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0500.pk> <C:\Users\ahmed\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi375\ectt0800.pk> <C:\Users\ahme
+d\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk> <C:\User
+s\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C
+:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.
+pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecs
+s0800.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecsx1000.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecss0900.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecss1200.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecsx2488.pk><C:/Users/ahmed/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/ahmed/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-
+Solid.pfb><C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/symbols/msam10.pfb>
+Output written on presentation_beamer.pdf (19 pages, 693658 bytes).
+Transcript written on presentation_beamer.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(presentation_beamer.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
+s.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+))) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty))
+
+Package hyperref Message: Stopped early.
+
+) (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty)
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+)))))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tionsymbols.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadri
+d.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+orchid.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg))
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-generic-helper.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
+e5-mapping.def))) (presentation_beamer.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg)) (presentation_beamer.out) (presentation_beamer.out)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict) (presentation_beamer.nav)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree0.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree3.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree2.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
+erncmss.fd) [1{C:/Users/ahmed/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5f
+ree0.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawes
+ome5/fa5free3.enc}{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/fontawesome5/fa5free2.enc}] [2]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd) [3{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fon
+tawesome5/fa5free1.enc}] [4] [5] (presentation_beamer.vrb
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty)
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd))
+[6] [7] [8 <../screenshots/model_comparison.png>]
+Overfull \vbox (55.80998pt too high) detected at line 395
+[9 <../screenshots/feature_importance.png>]
+Overfull \vbox (34.04611pt too high) detected at line 401
+[10 <../screenshots/roc_curve.png>] [11] [12] (presentation_beamer.vrb)
+[13] [14]
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+! Dimension too large.
+<recently read> \pgf@xx
+
+l.670 \end{frame}
+
+
+Overfull \hbox (9403.79123pt too wide) in paragraph at lines 670--670
+ []
+[15] [16 <../screenshots/class_distribution.png>] [17 <../screenshots/hourly_di
+stribution.png>]
+(C:\Users\ahmed\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mebrands0.fd) [18{C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+fontawesome5/fa5brands0.enc}] [19] (presentation_beamer.aux) )
+(see the transcript file for additional information) <C:\Users\ahmed\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0500.pk> <C:\Users\ahmed\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi375\ectt0800.pk> <C:\Users\ahme
+d\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk> <C:\User
+s\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C
+:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.
+pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecs
+s0800.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecsx1000.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecss0900.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecss1200.pk> <C:\Users\ahmed\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecsx2488.pk><C:/Users/ahmed/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/ahmed/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-
+Solid.pfb><C:/Users/ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/symbols/msam10.pfb>
+Output written on presentation_beamer.pdf (19 pages, 693659 bytes).
+Transcript written on presentation_beamer.log.
+PS C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project\docs> 

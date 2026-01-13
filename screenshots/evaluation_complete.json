@@ -1,0 +1,50 @@
+{
+  "evaluation_timestamp": "2026-01-13",
+  "dataset": {
+    "total_transactions": 282982,
+    "fraud_count": 465,
+    "fraud_rate": 0.1643
+  },
+  "models": {
+    "RandomForest": {
+      "model": "RandomForest",
+      "auc_roc": 0.987,
+      "auc_pr": 0.9608,
+      "accuracy": 0.9828,
+      "precision": 1.0,
+      "recall": 0.8812,
+      "f1_score": 0.9368,
+      "confusion_matrix": {
+        "TP": 89,
+        "TN": 595,
+        "FP": 0,
+        "FN": 12
+      }
+    },
+    "LogisticRegression": {
+      "model": "LogisticRegression",
+      "auc_roc": 0.9856,
+      "auc_pr": 0.9609,
+      "accuracy": 0.9799,
+      "precision": 0.9888,
+      "recall": 0.8713,
+      "f1_score": 0.9263,
+      "confusion_matrix": {
+        "TP": 88,
+        "TN": 594,
+        "FP": 1,
+        "FN": 13
+      }
+    }
+  },
+  "visualizations_generated": [
+    "model_comparison.png",
+    "confusion_matrices.png",
+    "feature_importance.png",
+    "hourly_distribution.png",
+    "class_distribution.png",
+    "roc_curve.png"
+  ],
+  "best_model": "RandomForest",
+  "recommendation": "RandomForest achieves best balance with 100% fraud precision"
+}

@@ -1,0 +1,1959 @@
+{
+  "analysis_type": "GraphX Fraud Network Analysis",
+  "total_transactions": 284807,
+  "fraud_transactions": 492,
+  "communities": {
+    "detected": 4,
+    "details": [
+      {
+        "name": "medium_risk",
+        "size": 144,
+        "avg_amount": 154.09,
+        "avg_V14": -3.0259
+      },
+      {
+        "name": "high_risk_1",
+        "size": 114,
+        "avg_amount": 73.98,
+        "avg_V14": -12.8944
+      },
+      {
+        "name": "high_risk_2",
+        "size": 210,
+        "avg_amount": 107.24,
+        "avg_V14": -7.35
+      },
+      {
+        "name": "low_risk",
+        "size": 24,
+        "avg_amount": 291.05,
+        "avg_V14": 0.7957
+      }
+    ]
+  },
+  "feature_importance_pagerank": [
+    {
+      "feature": "V3",
+      "fraud_avg": -7.0333,
+      "normal_avg": 0.8745,
+      "separation": 7.9078
+    },
+    {
+      "feature": "V14",
+      "fraud_avg": -6.9717,
+      "normal_avg": -0.1981,
+      "separation": 6.7736
+    },
+    {
+      "feature": "V17",
+      "fraud_avg": -6.6658,
+      "normal_avg": -0.0567,
+      "separation": 6.6091
+    },
+    {
+      "feature": "V12",
+      "fraud_avg": -6.2594,
+      "normal_avg": 0.2442,
+      "separation": 6.5036
+    },
+    {
+      "feature": "V10",
+      "fraud_avg": -5.6769,
+      "normal_avg": 0.0415,
+      "separation": 5.7184
+    }
+  ],
+  "triangle_patterns": 48,
+  "hourly_distribution": [
+    {
+      "hour": 0,
+      "fraud_count": 1
+    },
+    {
+      "hour": 0,
+      "fraud_count": 1
+    },
+    {
+      "hour": 0,
+      "fraud_count": 1
+    },
+    {
+      "hour": 0,
+      "fraud_count": 1
+    },
+    {
+      "hour": 0,
+      "fraud_count": 1
+    },
+    {
+      "hour": 0,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 1,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 4
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 4
+    },
+    {
+      "hour": 2,
+      "fraud_count": 4
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 4
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 2,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 3,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 4,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 5,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 6,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 7,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 8,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 9,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 10,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 11,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 12,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 13,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 14,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 15,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 16,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 2
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 17,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 6
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 18,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 19,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 20,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 21,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 22,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 4
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 4
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    },
+    {
+      "hour": 23,
+      "fraud_count": 1
+    }
+  ],
+  "clusters": {
+    "micro": {
+      "range": "0-10",
+      "description": "Micro transactions"
+    },
+    "small": {
+      "range": "10-100",
+      "description": "Small transactions"
+    },
+    "medium": {
+      "range": "100-500",
+      "description": "Medium transactions"
+    },
+    "large": {
+      "range": "500+",
+      "description": "Large transactions"
+    }
+  }
+}
