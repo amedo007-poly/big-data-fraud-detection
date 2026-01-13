@@ -1,0 +1,521 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+
+% Page setup
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+% Colors
+\definecolor{primaryblue}{RGB}{0, 82, 147}
+\definecolor{secondaryred}{RGB}{204, 0, 0}
+\definecolor{codegray}{RGB}{245, 245, 245}
+\definecolor{codegreen}{RGB}{0, 128, 0}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primaryblue,
+    filecolor=primaryblue,
+    urlcolor=primaryblue,
+}
+
+% Code listing setup
+\lstset{
+    backgroundcolor=\color{codegray},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    language=Python,
+    keywordstyle=\color{primaryblue}\bfseries,
+    commentstyle=\color{codegreen},
+    stringstyle=\color{secondaryred},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    tabsize=4
+}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{primaryblue}{Big Data - Projet Final}}
+\fancyhead[R]{\textcolor{primaryblue}{Détection de Fraude}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Title formatting
+\titleformat{\section}{\Large\bfseries\color{primaryblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{primaryblue!80}}{\thesubsection}{1em}{}
+
+% ============================================================================
+% DOCUMENT START
+% ============================================================================
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\textcolor{primaryblue}{Projet Big Data}}\\[0.5cm]
+    {\LARGE\textcolor{primaryblue}{Module Clôture}}\\[2cm]
+    
+    \rule{\textwidth}{1.5pt}\\[0.5cm]
+    {\Huge\bfseries Détection de Fraude Bancaire}\\[0.3cm]
+    {\Large avec Apache Spark et Machine Learning}\\[0.5cm]
+    \rule{\textwidth}{1.5pt}\\[2cm]
+    
+    \includegraphics[width=0.3\textwidth]{spark-logo.png}\\[1cm] % Add logo if available
+    
+    {\Large\textbf{Technologies utilisées:}}\\[0.5cm]
+    {\large Apache Spark $\bullet$ Spark SQL $\bullet$ MLlib $\bullet$ Spark Streaming $\bullet$ Grafana}\\[1.5cm]
+    
+    \vfill
+    
+    {\Large\textbf{Équipe:}}\\[0.3cm]
+    {\large Ahmed Dinari $\bullet$ Bilel Samaali $\bullet$ Anas Belhouichet}\\[0.5cm]
+    {\large\textbf{Date:} \today}\\[0.3cm]
+    {\large\textbf{Module:} Big Data Hadoop}
+    
+\end{titlepage}
+
+% Team Contributions Page
+\newpage
+\section*{Contributions de l'Équipe}
+\addcontentsline{toc}{section}{Contributions de l'Équipe}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}p{4cm}p{4cm}p{6cm}@{}}
+\toprule
+\textbf{Membre} & \textbf{Rôle} & \textbf{Contributions} \\
+\midrule
+Ahmed Dinari & Lead Developer \& ML Engineer & Architecture pipeline, Spark Core, Modèles MLlib, Configuration Docker \\
+Bilel Samaali & Data Engineer & Spark SQL Analytics, Nettoyage données, Feature Engineering \\
+Anas Belhouichet & Visualisation \& Documentation & Dashboard Grafana, Rapport LaTeX, Présentation Beamer \\
+\bottomrule
+\end{tabular}
+\caption{Répartition du travail}
+\end{table}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% ============================================================================
+% INTRODUCTION
+% ============================================================================
+
+\section{Introduction}
+
+\subsection{Contexte du Projet}
+La détection de fraude bancaire est un enjeu majeur dans le secteur financier. Avec des millions de transactions effectuées quotidiennement, il est crucial de pouvoir identifier rapidement les transactions frauduleuses tout en minimisant les faux positifs.
+
+Ce projet met en œuvre un pipeline Big Data complet pour la détection de fraude en temps réel, utilisant l'écosystème Apache Spark.
+
+\subsection{Objectifs}
+\begin{itemize}
+    \item \textbf{Ingestion et nettoyage} des données avec Spark SQL
+    \item \textbf{Analyse exploratoire} avec des KPIs pertinents
+    \item \textbf{Machine Learning} avec MLlib (RandomForest, Logistic Regression)
+    \item \textbf{Streaming temps réel} pour la détection continue
+    \item \textbf{Visualisation} via dashboard Grafana
+\end{itemize}
+
+\subsection{Dataset}
+\textbf{Credit Card Fraud Detection Dataset} (Kaggle)
+\begin{itemize}
+    \item \textbf{Source:} \url{https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud}
+    \item \textbf{Transactions:} 284,807
+    \item \textbf{Features:} 30 (V1-V28 transformées PCA + Time + Amount)
+    \item \textbf{Classe:} Binaire (0 = Normal, 1 = Fraude)
+    \item \textbf{Distribution:} 99.83\% Normal, 0.17\% Fraude
+\end{itemize}
+
+% ============================================================================
+% ARCHITECTURE
+% ============================================================================
+
+\section{Architecture du Pipeline}
+
+\subsection{Vue d'Ensemble}
+
+\begin{figure}[H]
+    \centering
+    \fbox{\parbox{0.9\textwidth}{
+        \centering
+        \textbf{ARCHITECTURE DU PIPELINE BIG DATA}\\[0.5cm]
+        \texttt{CSV Data} $\rightarrow$ \texttt{Spark Core} $\rightarrow$ \texttt{Spark SQL} $\rightarrow$ \texttt{MLlib} $\rightarrow$ \texttt{Streaming} $\rightarrow$ \texttt{Grafana}
+    }}
+    \caption{Pipeline de traitement des données}
+\end{figure}
+
+\subsection{Composants}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Composant} & \textbf{Technologie} & \textbf{Rôle} \\
+\midrule
+Ingestion & Spark Core & Chargement CSV \\
+Nettoyage & Spark SQL & Transformation, filtrage \\
+Analytics & Spark SQL & KPIs, agrégations \\
+ML Model & MLlib & Classification fraude \\
+Streaming & Structured Streaming & Temps réel \\
+Visualisation & Grafana & Dashboard interactif \\
+\bottomrule
+\end{tabular}
+\caption{Composants du pipeline}
+\end{table}
+
+\subsection{Flux de Données}
+
+\begin{enumerate}
+    \item \textbf{Extraction:} Chargement du fichier CSV (284K transactions)
+    \item \textbf{Transformation:} Nettoyage, feature engineering, normalisation
+    \item \textbf{Analyse SQL:} Calcul des KPIs métier
+    \item \textbf{Modélisation:} Entraînement RandomForest et Logistic Regression
+    \item \textbf{Évaluation:} Métriques de performance (AUC, Precision, Recall)
+    \item \textbf{Streaming:} Simulation de flux temps réel
+    \item \textbf{Export:} Fichiers Parquet/JSON pour Grafana
+\end{enumerate}
+
+% ============================================================================
+% SPARK SQL
+% ============================================================================
+
+\section{Traitement avec Spark SQL}
+
+\subsection{Nettoyage des Données}
+
+\begin{lstlisting}[caption={Nettoyage avec Spark SQL}]
+# Suppression des valeurs nulles
+df_clean = df.dropna()
+
+# Filtrage des montants invalides
+df_clean = df_clean.filter(col("Amount") > 0)
+
+# Ajout de features derivees
+df_clean = df_clean.withColumn(
+    "Hour", (col("Time") / 3600).cast("integer") % 24
+).withColumn(
+    "Is_High_Amount", when(col("Amount") > 500, 1).otherwise(0)
+)
+\end{lstlisting}
+
+\subsection{KPIs Calculés}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Métrique} & \textbf{Valeur} \\
+\midrule
+Total Transactions & 282,982 \\
+Transactions Fraude & 465 \\
+Taux de Fraude & 0.1643\% \\
+Montant Moyen & \$88.92 \\
+Montant Max & \$25,691.16 \\
+Montant Min & \$0.01 \\
+Écart-type & \$250.82 \\
+\bottomrule
+\end{tabular}
+\caption{Statistiques globales du dataset (après nettoyage)}
+\end{table}
+
+\subsection{Analyse par Tranche Horaire}
+
+Les transactions sont analysées par heure pour identifier les patterns temporels de fraude. L'analyse révèle que certaines heures présentent un taux de fraude plus élevé.
+
+% ============================================================================
+% MLLIB
+% ============================================================================
+
+\section{Machine Learning avec MLlib}
+
+\subsection{Préparation des Features}
+
+\begin{lstlisting}[caption={Feature Engineering}]
+# Assemblage des features
+assembler = VectorAssembler(
+    inputCols=["V1", "V2", ..., "V28", "Amount"],
+    outputCol="features_raw"
+)
+
+# Normalisation
+scaler = StandardScaler(
+    inputCol="features_raw",
+    outputCol="features",
+    withStd=True, withMean=True
+)
+\end{lstlisting}
+
+\subsection{Modèles Entraînés}
+
+\subsubsection{RandomForest Classifier}
+\begin{itemize}
+    \item \textbf{Nombre d'arbres:} 100
+    \item \textbf{Profondeur max:} 10
+    \item \textbf{Feature subset:} sqrt
+\end{itemize}
+
+\subsubsection{Logistic Regression}
+\begin{itemize}
+    \item \textbf{Iterations max:} 100
+    \item \textbf{Régularisation:} 0.01
+    \item \textbf{ElasticNet:} 0.8
+\end{itemize}
+
+\subsection{Résultats}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Métrique} & \textbf{RandomForest} & \textbf{Logistic Regression} \\
+\midrule
+Accuracy & 0.9375 & 0.9258 \\
+Precision & 0.9428 & 0.9311 \\
+Recall & 0.9375 & 0.9258 \\
+F1 Score & 0.9355 & 0.9233 \\
+AUC-ROC & \textbf{0.9847} & 0.9861 \\
+Fraud Recall & 0.8072 & 0.7831 \\
+Fraud Precision & \textbf{1.0000} & 0.9848 \\
+\bottomrule
+\end{tabular}
+\caption{Comparaison des performances des modèles (Résultats Réels)}
+\end{table}
+
+\subsection{Matrice de Confusion (RandomForest)}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lcc@{}}
+\toprule
+& \textbf{Prédit Normal} & \textbf{Prédit Fraude} \\
+\midrule
+\textbf{Réel Normal} & 173 (TN) & 0 (FP) \\
+\textbf{Réel Fraude} & 16 (FN) & 67 (TP) \\
+\bottomrule
+\end{tabular}
+\caption{Matrice de confusion (Résultats Réels)}
+\end{table}
+
+\subsection{Importance des Features}
+
+Les features les plus importantes pour la détection de fraude sont:
+\begin{enumerate}
+    \item V14 (21.71\%)
+    \item V17 (14.50\%)
+    \item V10 (12.88\%)
+    \item V12 (10.11\%)
+    \item V11 (9.81\%)
+    \item V4 (8.09\%)
+    \item V3 (4.72\%)
+\end{enumerate}
+
+% ============================================================================
+% STREAMING
+% ============================================================================
+
+\section{Spark Streaming}
+
+\subsection{Architecture Streaming}
+
+Le module de streaming simule l'arrivée de nouvelles transactions en temps réel:
+
+\begin{lstlisting}[caption={Configuration Streaming}]
+stream_df = spark.readStream \
+    .schema(TRANSACTION_SCHEMA) \
+    .option("header", "true") \
+    .option("maxFilesPerTrigger", 1) \
+    .csv(STREAMING_INPUT)
+\end{lstlisting}
+
+\subsection{Flux de Traitement}
+
+\begin{enumerate}
+    \item \textbf{Simulation:} Génération de batches (50 transactions / 3 secondes)
+    \item \textbf{Scoring:} Application du modèle de détection
+    \item \textbf{Alertes:} Génération d'alertes pour fraud\_score > 0.5
+    \item \textbf{Export:} Métriques temps réel vers Grafana
+\end{enumerate}
+
+\subsection{Métriques Streaming}
+
+\begin{itemize}
+    \item Transactions par minute
+    \item Taux de fraude en temps réel
+    \item Alertes générées
+    \item Latence de traitement
+\end{itemize}
+
+% ============================================================================
+% GRAFANA
+% ============================================================================
+
+\section{Dashboard Grafana}
+
+\subsection{Panels Implémentés}
+
+\begin{enumerate}
+    \item \textbf{Overview Metrics:} KPIs principaux (6 stat panels)
+    \item \textbf{Time Series:} Transactions et fraudes dans le temps
+    \item \textbf{ML Performance:} Gauges (Precision, Recall, F1)
+    \item \textbf{Confusion Matrix:} Table de la matrice
+    \item \textbf{Amount Analysis:} Distribution par montant
+    \item \textbf{Feature Importance:} Bar chart horizontal
+    \item \textbf{Live Alerts:} Table des alertes temps réel
+\end{enumerate}
+
+\subsection{Configuration}
+
+Le dashboard est exporté en JSON et peut être importé dans toute instance Grafana. Les données sont servies via:
+\begin{itemize}
+    \item Fichiers CSV (time series, distributions)
+    \item Fichiers JSON (métriques, configuration)
+    \item Parquet (données volumineuses)
+\end{itemize}
+
+% ============================================================================
+% AZURE
+% ============================================================================
+
+\section{Intégration Cloud (Azure)}
+
+\subsection{Architecture Cloud-Ready}
+
+Le pipeline est conçu pour une migration vers Azure:
+
+\begin{itemize}
+    \item \textbf{Azure Blob Storage:} Stockage des données
+    \item \textbf{Azure Databricks:} Exécution Spark managée
+    \item \textbf{Azure Stream Analytics:} Streaming production
+    \item \textbf{Azure Monitor:} Métriques et alertes
+\end{itemize}
+
+\subsection{Validation Cloud}
+
+Pour ce projet, la validation cloud est effectuée via:
+\begin{itemize}
+    \item Upload des données vers Azure Blob Storage
+    \item Architecture documentée et reproductible
+    \item Code compatible Databricks
+\end{itemize}
+
+% ============================================================================
+% CONCLUSION
+% ============================================================================
+
+\section{Conclusion}
+
+\subsection{Réalisations}
+
+Ce projet démontre la maîtrise des technologies Big Data:
+
+\begin{itemize}
+    \item[$\checkmark$] Pipeline complet Spark (Core, SQL, MLlib, Streaming)
+    \item[$\checkmark$] Modèle ML performant (AUC-ROC = 0.99)
+    \item[$\checkmark$] Dashboard Grafana professionnel
+    \item[$\checkmark$] Architecture cloud-ready
+    \item[$\checkmark$] Code reproductible et documenté
+\end{itemize}
+
+\subsection{Difficultés Rencontrées}
+
+\begin{itemize}
+    \item \textbf{Déséquilibre des classes:} Résolu par undersampling
+    \item \textbf{Streaming simulation:} Implémenté via file-based streaming
+    \item \textbf{Intégration Grafana:} Export vers formats compatibles
+\end{itemize}
+
+\subsection{Améliorations Futures}
+
+\begin{itemize}
+    \item Déploiement complet sur Azure Databricks
+    \item Modèle de Deep Learning (Neural Network)
+    \item GraphX pour analyse des relations transactions
+    \item Alerting automatisé via webhooks
+\end{itemize}
+
+% ============================================================================
+% REFERENCES
+% ============================================================================
+
+\section{Références}
+
+\begin{itemize}
+    \item Apache Spark Documentation: \url{https://spark.apache.org/docs/latest/}
+    \item MLlib Guide: \url{https://spark.apache.org/docs/latest/ml-guide.html}
+    \item Kaggle Dataset: \url{https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud}
+    \item Grafana Documentation: \url{https://grafana.com/docs/}
+    \item Azure Databricks: \url{https://docs.microsoft.com/azure/databricks/}
+\end{itemize}
+
+% ============================================================================
+% ANNEXES
+% ============================================================================
+
+\appendix
+
+\section{Structure du Projet}
+
+\begin{lstlisting}[language=bash,caption={Arborescence du projet}]
+big-data-fraud-project/
+├── data/
+│   ├── raw/creditcard.csv
+│   ├── processed/
+│   └── streaming_input/
+├── src/
+│   ├── spark_sql_analytics.py
+│   ├── mllib_fraud_model.py
+│   ├── streaming_fraud_detection.py
+│   └── prepare_grafana_data.py
+├── outputs/
+│   ├── metrics/
+│   └── predictions/
+├── grafana/
+│   ├── fraud_detection_dashboard.json
+│   └── data/
+├── README.md
+└── report.pdf
+\end{lstlisting}
+
+\section{Commandes d'Exécution}
+
+\begin{lstlisting}[language=bash,caption={Commandes pour exécuter le pipeline}]
+# 1. Generer donnees de test (optionnel)
+python src/generate_sample_data.py
+
+# 2. Spark SQL Analytics
+spark-submit src/spark_sql_analytics.py
+
+# 3. MLlib Model Training
+spark-submit src/mllib_fraud_model.py
+
+# 4. Streaming Simulation
+spark-submit src/streaming_fraud_detection.py
+
+# 5. Prepare Grafana Data
+python src/prepare_grafana_data.py
+\end{lstlisting}
+
+\end{document}

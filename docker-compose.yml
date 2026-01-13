@@ -1,0 +1,13 @@
+services:
+  spark:
+    build: .
+    container_name: fraud-spark
+    ports:
+      - "4040:4040"
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./grafana:/app/grafana
+    working_dir: /app
+    command: tail -f /dev/null

@@ -1,0 +1,51 @@
+================================================================================
+DATASET DOWNLOAD INSTRUCTIONS - CREDIT CARD FRAUD DETECTION
+================================================================================
+
+STEP 1: Go to Kaggle
+-----------------------
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+STEP 2: Download
+-----------------------
+- Click "Download" button (you need a Kaggle account - free)
+- Download the file: creditcard.csv (143.84 MB)
+
+STEP 3: Place the file
+-----------------------
+Put creditcard.csv in this folder:
+    data/raw/creditcard.csv
+
+================================================================================
+DATASET DESCRIPTION
+================================================================================
+
+File: creditcard.csv
+Size: ~143 MB
+Rows: 284,807 transactions
+Columns: 31
+
+COLUMNS:
+- Time: Seconds elapsed between this transaction and first transaction
+- V1-V28: PCA transformed features (anonymized for privacy)
+- Amount: Transaction amount
+- Class: 1 = Fraud, 0 = Normal
+
+CLASS DISTRIBUTION:
+- Normal (0): 284,315 (99.83%)
+- Fraud (1): 492 (0.17%)
+
+This imbalanced distribution is realistic for fraud detection!
+
+================================================================================
+ALTERNATIVE: QUICK START WITH SAMPLE DATA
+================================================================================
+
+If you can't download from Kaggle immediately, I've created a sample
+generator script that creates realistic test data for development.
+
+Run: python src/generate_sample_data.py
+
+This creates a smaller dataset for testing the pipeline.
+
+================================================================================

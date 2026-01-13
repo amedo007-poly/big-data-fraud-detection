@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-01-13T04:25:04.516896",
+  "total_transactions": 284807,
+  "fraud_count": 492,
+  "normal_count": 284315,
+  "fraud_rate_percent": 0.1727,
+  "avg_amount": 88.35,
+  "model_accuracy": 0.9375,
+  "auc_roc": 0.9847,
+  "precision": 0.9428,
+  "recall": 0.9375,
+  "f1_score": 0.9355,
+  "fraud_recall": 0.8072
+}

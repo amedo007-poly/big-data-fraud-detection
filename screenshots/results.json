@@ -1,0 +1,260 @@
+C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop> docker exec fraud-spark cat /app/outputs/metrics/sql_metrics.json
+{
+  "overall": {
+    "total_transactions": 282982,
+    "fraud_count": 465,
+    "normal_count": 282517,
+    "fraud_rate": 0.1643,
+    "avg_amount": 88.92,
+    "min_amount": 0.01,
+    "max_amount": 25691.16,
+    "stddev_amount": 250.82
+  },
+  "class_comparison": [
+    {
+      "class": 0,
+      "class_name": "Normal",
+      "count": 282517,
+      "avg_amount": 88.85,
+      "median_amount": 22.49,
+      "max_amount": 25691.16
+    },
+    {
+      "class": 1,
+      "class_name": "Fraud",
+      "count": 465,
+      "avg_amount": 129.31,
+      "median_amount": 17.06,
+      "max_amount": 2125.87
+    }
+  ],
+  "hourly_distribution": [
+    {
+      "hour": 0,
+      "total_count": 7626,
+      "fraud_count": 5,
+      "total_amount": 464208.26,
+      "avg_amount": 60.87
+    },
+    {
+      "hour": 1,
+      "total_count": 4189,
+      "fraud_count": 10,
+      "total_amount": 264325.45,
+      "avg_amount": 63.1
+    },
+    {
+      "hour": 2,
+      "total_count": 3306,
+      "fraud_count": 57,
+      "total_amount": 233820.68,
+      "avg_amount": 70.73
+    },
+    {
+      "hour": 3,
+      "total_count": 3458,
+      "fraud_count": 16,
+      "total_amount": 181852.16,
+      "avg_amount": 52.59
+    },
+    {
+      "hour": 4,
+      "total_count": 2179,
+      "fraud_count": 19,
+      "total_amount": 170179.23,
+      "avg_amount": 78.1
+    },
+    {
+      "hour": 5,
+      "total_count": 2982,
+      "fraud_count": 11,
+      "total_amount": 151520.18,
+      "avg_amount": 50.81
+    },
+    {
+      "hour": 6,
+      "total_count": 4084,
+      "fraud_count": 8,
+      "total_amount": 266812.2,
+      "avg_amount": 65.33
+    },
+    {
+      "hour": 7,
+      "total_count": 7147,
+      "fraud_count": 23,
+      "total_amount": 491209.1,
+      "avg_amount": 68.73
+    },
+    {
+      "hour": 8,
+      "total_count": 10222,
+      "fraud_count": 9,
+      "total_amount": 912213.29,
+      "avg_amount": 89.24
+    },
+    {
+      "hour": 9,
+      "total_count": 15682,
+      "fraud_count": 15,
+      "total_amount": 1628829.82,
+      "avg_amount": 103.87
+    },
+    {
+      "hour": 10,
+      "total_count": 16460,
+      "fraud_count": 7,
+      "total_amount": 1820354.38,
+      "avg_amount": 110.59
+    },
+    {
+      "hour": 11,
+      "total_count": 16719,
+      "fraud_count": 51,
+      "total_amount": 1847641.57,
+      "avg_amount": 110.51
+    },
+    {
+      "hour": 12,
+      "total_count": 15327,
+      "fraud_count": 17,
+      "total_amount": 1635221.81,
+      "avg_amount": 106.69
+    },
+    {
+      "hour": 13,
+      "total_count": 15248,
+      "fraud_count": 15,
+      "total_amount": 1520510.55,
+      "avg_amount": 99.72
+    },
+    {
+      "hour": 14,
+      "total_count": 16463,
+      "fraud_count": 22,
+      "total_amount": 1715632.94,
+      "avg_amount": 104.21
+    },
+    {
+      "hour": 15,
+      "total_count": 16363,
+      "fraud_count": 25,
+      "total_amount": 1679009.61,
+      "avg_amount": 102.61
+    },
+    {
+      "hour": 16,
+      "total_count": 16370,
+      "fraud_count": 21,
+      "total_amount": 1702609.91,
+      "avg_amount": 104.01
+    },
+    {
+      "hour": 17,
+      "total_count": 16074,
+      "fraud_count": 24,
+      "total_amount": 1589499.95,
+      "avg_amount": 98.89
+    },
+    {
+      "hour": 18,
+      "total_count": 16954,
+      "fraud_count": 32,
+      "total_amount": 1316311.34,
+      "avg_amount": 77.64
+    },
+    {
+      "hour": 19,
+      "total_count": 15574,
+      "fraud_count": 19,
+      "total_amount": 1220410.35,
+      "avg_amount": 78.36
+    },
+    {
+      "hour": 20,
+      "total_count": 16671,
+      "fraud_count": 18,
+      "total_amount": 1249073.1,
+      "avg_amount": 74.92
+    },
+    {
+      "hour": 21,
+      "total_count": 17634,
+      "fraud_count": 16,
+      "total_amount": 1268615.18,
+      "avg_amount": 71.94
+    },
+    {
+      "hour": 22,
+      "total_count": 15379,
+      "fraud_count": 8,
+      "total_amount": 1078955.79,
+      "avg_amount": 70.16
+    },
+    {
+      "hour": 23,
+      "total_count": 10871,
+      "fraud_count": 17,
+      "total_amount": 753773.16,
+      "avg_amount": 69.34
+    }
+  ],
+  "amount_buckets": [
+    {
+      "bucket": "0-10",
+      "count": 95489,
+      "fraud_count": 222,
+      "fraud_rate": 0.2325
+    },
+    {
+      "bucket": "10-50",
+      "count": 92390,
+      "fraud_count": 56,
+      "fraud_rate": 0.0606
+    },
+    {
+      "bucket": "50-100",
+      "count": 37718,
+      "fraud_count": 57,
+      "fraud_rate": 0.1511
+    },
+    {
+      "bucket": "100-500",
+      "count": 47893,
+      "fraud_count": 95,
+      "fraud_rate": 0.1984
+    },
+    {
+      "bucket": "500-1000",
+      "count": 6423,
+      "fraud_count": 26,
+      "fraud_rate": 0.4048
+    },
+    {
+      "bucket": "1000+",
+      "count": 3069,
+      "fraud_count": 9,
+      "fraud_rate": 0.2933
+    }
+  ],
+  "feature_analysis": {
+    "V1": {
+      "fraud_avg": -4.8693,
+      "normal_avg": 0.0077
+    },
+    "V3": {
+      "fraud_avg": -7.1022,
+      "normal_avg": 0.0084
+    },
+    "V4": {
+      "fraud_avg": 4.4914,
+      "normal_avg": -0.0194
+    },
+    "V7": {
+      "fraud_avg": -5.6168,
+      "normal_avg": 0.0118
+    }
+  }
+}
+
+
+this is the output of the sql metrics analysis for the fraud detection project. It includes overall statistics, class comparisons so use it in the presentation

@@ -1,0 +1,227 @@
+================================================================================
+FRAUD DETECTION PROJECT - COMMANDS TO RELAUNCH
+================================================================================
+Project: Big Data Fraud Detection with Apache Spark & MLlib
+Author: Ahmed
+Date: January 2026
+
+================================================================================
+PREREQUISITES
+================================================================================
+
+1. Docker Desktop installed and running
+2. Dataset: creditcard.csv in data/raw/ folder
+   Download from: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+================================================================================
+QUICK START (ALL-IN-ONE)
+================================================================================
+
+# Navigate to project folder
+cd "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project"
+
+# Build and start Docker container
+docker-compose up -d --build
+
+# Run full pipeline
+docker exec fraud-spark python /app/src/spark_sql_analytics.py
+docker exec fraud-spark python /app/src/mllib_fraud_model.py
+docker exec fraud-spark python /app/src/prepare_grafana_data.py
+
+================================================================================
+DETAILED COMMANDS
+================================================================================
+
+----- STEP 1: START DOCKER CONTAINER -----
+
+# Navigate to project directory
+cd "C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project"
+
+# Build Docker image (first time or after Dockerfile changes)
+docker-compose build
+
+# Start container
+docker-compose up -d
+
+# Verify container is running
+docker ps
+
+# Expected output: fraud-spark container running
+
+----- STEP 2: RUN SPARK SQL ANALYTICS -----
+
+# Clean data and calculate KPIs
+docker exec fraud-spark python /app/src/spark_sql_analytics.py
+
+# Output files:
+#   - /app/data/processed/transactions_clean (Parquet)
+#   - /app/outputs/metrics/sql_metrics.json
+#   - /app/outputs/metrics/hourly_stats.csv
+#   - /app/outputs/metrics/amount_buckets.csv
+
+----- STEP 3: RUN MLLIB MODELS -----
+
+# Train RandomForest and Logistic Regression models
+docker exec fraud-spark python /app/src/mllib_fraud_model.py
+
+# Output files:
+#   - /app/outputs/metrics/ml_metrics_randomforest.json
+#   - /app/outputs/metrics/ml_metrics_logisticregression.json
+#   - /app/outputs/predictions/predictions_randomforest.csv
+#   - /app/outputs/predictions/predictions_logisticregression.csv
+
+----- STEP 4: PREPARE GRAFANA DATA -----
+
+# Generate dashboard-ready data files
+docker exec fraud-spark python /app/src/prepare_grafana_data.py
+
+# Output files:
+#   - /app/grafana/data/overview_metrics.json
+#   - /app/grafana/data/hourly_transactions.csv
+#   - /app/grafana/data/amount_distribution.csv
+#   - /app/grafana/data/feature_importance.csv
+#   - /app/grafana/data/confusion_matrix.csv
+#   - /app/grafana/data/recent_alerts.csv
+
+----- STEP 5: VIEW RESULTS -----
+
+# View SQL metrics
+docker exec fraud-spark cat /app/outputs/metrics/sql_metrics.json
+
+# View ML metrics (RandomForest)
+docker exec fraud-spark cat /app/outputs/metrics/ml_metrics_randomforest.json
+
+# View ML metrics (Logistic Regression)
+docker exec fraud-spark cat /app/outputs/metrics/ml_metrics_logisticregression.json
+
+# View Grafana overview
+docker exec fraud-spark cat /app/grafana/data/overview_metrics.json
+
+----- STEP 6: SPARK UI (FOR SCREENSHOTS) -----
+
+# Run demo script to keep Spark UI alive
+docker exec -it fraud-spark python /app/src/spark_ui_demo.py
+
+# Access Spark UI in browser:
+#   http://localhost:4040/jobs/      - Jobs
+#   http://localhost:4040/stages/    - Stages
+#   http://localhost:4040/SQL/       - SQL Queries
+#   http://localhost:4040/executors/ - Executors
+
+# Press Ctrl+C to stop when done
+
+----- STEP 7: GRAFANA DASHBOARD -----
+
+# Start Grafana (port 3001)
+docker run -d --name grafana -p 3001:3000 grafana/grafana:latest
+
+# Access: http://localhost:3001
+# Login: admin / admin
+
+# Or open HTML dashboard directly:
+start dashboard_results.html
+
+================================================================================
+USEFUL DOCKER COMMANDS
+================================================================================
+
+# List running containers
+docker ps
+
+# List all containers (including stopped)
+docker ps -a
+
+# Stop the Spark container
+docker-compose down
+
+# Stop Grafana
+docker stop grafana && docker rm grafana
+
+# View container logs
+docker logs fraud-spark
+
+# Access container shell
+docker exec -it fraud-spark bash
+
+# Copy files from container to host
+docker cp fraud-spark:/app/outputs ./local_outputs
+
+# Restart container
+docker-compose restart
+
+# Rebuild and restart
+docker-compose up -d --build --force-recreate
+
+================================================================================
+FILE LOCATIONS
+================================================================================
+
+Project Root: C:\Users\ahmed\OneDrive\Desktop\Everything\BIG Data Hadoop\Final Project\big-data-fraud-project
+
+Source Code:
+  - src/spark_sql_analytics.py     - Data cleaning & SQL analytics
+  - src/mllib_fraud_model.py       - ML model training
+  - src/streaming_fraud_detection.py - Streaming simulation
+  - src/prepare_grafana_data.py    - Dashboard data preparation
+  - src/spark_ui_demo.py           - Spark UI demo
+
+Data:
+  - data/raw/creditcard.csv        - Original dataset (150MB)
+  - data/processed/                - Cleaned Parquet files
+
+Outputs:
+  - outputs/metrics/               - JSON metrics files
+  - outputs/predictions/           - Model predictions
+
+Grafana:
+  - grafana/data/                  - Dashboard data files
+  - grafana/fraud_detection_dashboard.json - Dashboard definition
+
+Documentation:
+  - docs/rapport_projet.tex        - LaTeX report
+  - docs/presentation_beamer.tex   - Beamer presentation
+  - README.md                      - Project overview
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+ERROR: "port is already allocated"
+  -> Change port in docker-compose.yml or stop conflicting container
+
+ERROR: "No module named 'pyspark'"
+  -> Rebuild container: docker-compose build --no-cache
+
+ERROR: "Java not found"
+  -> Rebuild container (Java is included in Dockerfile)
+
+ERROR: "creditcard.csv not found"
+  -> Download from Kaggle and place in data/raw/
+
+ERROR: Spark UI is blank
+  -> Spark session ended. Run spark_ui_demo.py to keep it alive
+
+================================================================================
+EXPECTED RESULTS
+================================================================================
+
+SQL Analytics:
+  - Total Transactions: 282,982 (after cleaning)
+  - Fraud Count: 465
+  - Fraud Rate: 0.1643%
+  - Average Amount: $88.92
+
+MLlib RandomForest:
+  - Accuracy: 93.75%
+  - AUC-ROC: 0.9847
+  - Precision: 94.28%
+  - Fraud Recall: 80.72%
+  - Fraud Precision: 100%
+
+Confusion Matrix:
+  - True Negatives: 173
+  - False Positives: 0
+  - False Negatives: 16
+  - True Positives: 67
+
+================================================================================

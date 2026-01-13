@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# Spark
+*.log
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data files (too large for git)
+data/raw/*.csv
+data/processed/
+data/streaming_input/*.csv
+*.parquet
+
+# Outputs (regenerated)
+outputs/predictions/
+outputs/metrics/*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# Keep these
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/streaming_input/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/predictions/.gitkeep
+!screenshots/.gitkeep
