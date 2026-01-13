@@ -135,11 +135,14 @@ This project implements a **complete Big Data pipeline** for credit card fraud d
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| Processing | Apache Spark 3.x | Distributed computing |
+| Processing | Apache Spark 3.5.0 | Distributed computing |
 | SQL Engine | Spark SQL | Data transformation |
-| ML Framework | MLlib | Model training |
+| ML Framework | MLlib | Model training (AUC=0.987) |
+| Graph Analysis | GraphX | Network detection |
 | Streaming | Structured Streaming | Real-time processing |
+| Cloud | Azure Databricks | Scalable deployment |
 | Visualization | Grafana | Dashboard |
+| Container | Docker | Reproducible environment |
 | Storage | Parquet/JSON/CSV | Data persistence |
 
 ---
@@ -159,11 +162,11 @@ spark-submit --version
 
 ```bash
 # Clone repository
-git clone https://github.com/username/big-data-fraud-detection.git
+git clone https://github.com/amedo007-poly/big-data-fraud-detection.git
 cd big-data-fraud-detection
 
 # Install Python dependencies
-pip install pyspark pandas numpy scikit-learn
+pip install pyspark pandas numpy scikit-learn matplotlib seaborn
 ```
 
 ### Download Dataset
@@ -426,21 +429,25 @@ See [AZURE_FEDERATED_GUIDE.md](docs/AZURE_FEDERATED_GUIDE.md) for complete setup
 
 | Document | Description |
 |----------|-------------|
-| [docs/rapport_projet.tex](docs/rapport_projet.tex) | Full LaTeX report (10 pages) |
-| [docs/presentation_beamer.tex](docs/presentation_beamer.tex) | Beamer slides (10 slides) |
+| [rapport_projet.pdf](docs/rapport_projet.pdf) | Full project report (**21 pages**) |
+| [presentation_beamer.pdf](docs/presentation_beamer.pdf) | Beamer presentation (**28 slides**) |
+| [AZURE_FEDERATED_GUIDE.md](docs/AZURE_FEDERATED_GUIDE.md) | Azure + Federated Learning guide |
+| [AZURE_STUDENTS_GUIDE.md](docs/AZURE_STUDENTS_GUIDE.md) | Azure for Students setup |
 | [GRAFANA_SETUP.md](GRAFANA_SETUP.md) | Dashboard setup guide |
-| [DOWNLOAD_DATASET.txt](DOWNLOAD_DATASET.txt) | Dataset instructions |
 
 ---
 
 ## 🛠 Technologies Used
 
-- **Apache Spark 3.x** - Distributed processing
+- **Apache Spark 3.5.0** - Distributed processing
 - **PySpark** - Python API
 - **Spark SQL** - Data transformation
-- **MLlib** - Machine Learning
-- **Structured Streaming** - Real-time
-- **Grafana** - Visualization
+- **MLlib** - Machine Learning (RandomForest, LogisticRegression, GBT)
+- **GraphX** - Network/Graph analysis
+- **Structured Streaming** - Real-time processing
+- **Azure Databricks** - Cloud deployment
+- **Grafana** - Visualization dashboard
+- **Docker** - Containerization
 - **Python 3.8+** - Scripting
 - **LaTeX/Beamer** - Documentation
 
