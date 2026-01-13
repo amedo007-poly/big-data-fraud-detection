@@ -4,6 +4,7 @@ MLlib - Machine Learning Fraud Detection Model
 ================================================================================
 Big Data Final Project - Module Clôture
 Technologies: Apache Spark MLlib, RandomForest, Logistic Regression
+Ahmed Dinari
 
 This script performs:
 1. Feature engineering and preparation

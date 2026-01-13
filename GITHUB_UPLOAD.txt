@@ -78,7 +78,7 @@ Key contributions:
 ✓ Calculated KPIs and statistics
 ✓ Implemented data export to Parquet/JSON/CSV
 
-ANAS BELHOUICHET (Visualization & Documentation)
+MOHAMED ANAS BELHOUICHET (Visualization & Documentation)
 --------------------------------------------
 Files worked on:
 - grafana/fraud_detection_dashboard.json

@@ -1,0 +1,42 @@
+\frametitle{Spark Streaming - Real-Time}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faStream\ Configuration}
+\begin{lstlisting}[language=Python]
+stream_df = spark.readStream \
+    .schema(SCHEMA) \
+    .option("maxFilesPerTrigger", 1) \
+    .csv(STREAMING_INPUT)
+\end{lstlisting}
+    \end{block}
+
+    \begin{block}{\faClock\ Parameters}
+        \tiny
+        \begin{itemize}
+            \item Batch: 50 transactions
+            \item Interval: 3 seconds
+            \item Demo duration: 60 seconds
+        \end{itemize}
+    \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+    \begin{block}{\faFileExport\ Outputs}
+        \tiny
+        \begin{itemize}
+            \item \textbf{Parquet:} All predictions
+            \item \textbf{CSV:} Fraud alerts
+            \item \textbf{JSON:} Live metrics
+        \end{itemize}
+    \end{block}
+
+    \begin{exampleblock}{\faRocket\ Live Metrics}
+        \tiny
+        \begin{itemize}
+            \item Transactions/minute
+            \item Frauds detected
+            \item Average score
+            \item Latency < 100ms
+        \end{itemize}
+    \end{exampleblock}
+\end{column}
+\end{columns}

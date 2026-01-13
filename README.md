@@ -29,7 +29,7 @@
 |--------|------|---------------|
 | **Ahmed Dinari** | Lead Developer & ML Engineer | Spark Core, MLlib Models, Pipeline Architecture, Docker Setup |
 | **Bilel Samaali** | Data Engineer | Spark SQL Analytics, Data Cleaning, Feature Engineering |
-| **Anas Belhouichet** | Visualization & Docs | Grafana Dashboard, LaTeX Report, Presentation |
+| **Mohamed Anas Belhouichet** | Visualization & Docs | Grafana Dashboard, LaTeX Report, Presentation |
 
 ---
 
@@ -469,7 +469,7 @@ See [AZURE_FEDERATED_GUIDE.md](docs/AZURE_FEDERATED_GUIDE.md) for complete setup
 - ✅ KPI calculations
 - ✅ Data export to Parquet
 
-### Anas Belhouichet - Visualization & Documentation
+### Mohamed Anas Belhouichet - Visualization & Documentation
 - ✅ Grafana dashboard design
 - ✅ LaTeX report writing
 - ✅ Beamer presentation
